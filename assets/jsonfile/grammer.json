@@ -1,0 +1,32 @@
+[
+  {
+    "categoryName": "Beginner",
+    "categoryImage": "assetimage",
+    "subCategoryList": [
+      {
+        "subCategoryName": "Alphabets ",
+        "subCategoryImage": "assetimage",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Alphabets",
+            "firstTopicDetails": "The modern English alphabet consists of 26 letters, and they are known as Latin alphabet. The word “alphabet” itself came from the Latin word “alphabetum, ” and this Latin word came from the Greek words ‘alpha’ and ‘beta.'\n\nAlphabet শব্দটি ল্যাটিন শব্দ alphabetum থেকে এসেছে। আধুনিক ইংরেজী বর্ণমালায় মোট ছাব্বিশটি alphabet আছে।\n\nThe alphabet is known as the set of letters or symbols. These are used to present the basic set of speech sounds of a language.\n\nAlphabet গুলোকে কোন ভাষার বর্ণ বা সংকেত বলা হয়।\n\nThe English alphabet has 26 letters that start with ‘a’ and end with ‘z’. Each letter of English alphabet has two forms: capital and small letters. Large letters are often called Capital Letters. Sometimes, they are also called caps.\n\nপ্রত্যেকটা ইংরেজি বর্ণের দুটি করে পদ্ধতি আছে। একটাকে বড় অক্ষর ও অপরটাকে ছোট অক্ষরের বর্ণ বলা হয়।"
+          },
+
+          {
+            "secondTopicName": "Small and large letters together",
+            "secondTopicDetails": "Large letters: A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z\n\nSmall letters: a-b-c-d-e-f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z\n\nSometimes, small letters are called lowercase letters, and capital letters are called uppercase letters. These terms are used during the old days of printing before the computer because the old metal blocks for setting type were kept two different cases, one is lower case for small letters, and another is upper case for large letters.\n\nAll of the 26 alphabets are classified into vowels and consonants. From these 26 letters, five letters are vowels, and the remaining 21 letters are known as consonants."
+          },
+          {
+            "thirdTopicName": "Vowels",
+            "thirdTopicDetails": "A, E, I, O and U are called vowels.\n\nA, E, I, O, এবং U হচ্ছে vowel .\n\nVowels are speech sounds created by the open configuration of the vocal tract. By pairing with consonants, vowels make syllables.\n\nVowel গুলো consonant গুলোর সাথে মিলে syllable তৈরি করে।\n\nExamples of vowels in words:\n\nSat, egg, diagram, ultrasonography, etc.\n\nHere, in the word ‘sat,' a is the vowel. In ‘egg,' e is the vowel. In ‘diagram,' a, and i, are the vowels. Similarly, in the word ‘ultrasonography,' a, o, and u are the vowels."
+          },
+          {
+            "fourthTopicName": "Consonants",
+            "fourthTopicDetails": "Vowel ছাড়া বাকি ১৯ টি অক্ষর সব consonant.   \n\nApart from vowels, rest of the alphabets are called consonants. A consonant must pair with (a) vowel(s) to make a syllable. Without pairing with vowels, consonants can’t make any syllable.\n\nSo, the consonant is the basic speech sound in which the breath is at least partly obstructed, and it can be combined with vowels to make syllables.\n\nএকটা শব্দে মাত্র একটি Vowel ছাড়া বাকি সবগুলোই consonant হতে পারে।\n\nExample of consonants:\n\na) Carry. C, r, r, and y are the consonants.\nb) Story. s, t, r, and y are consonants.\nc) Earning. r, n, and g are consonants."
+          }
+        ]
+      }
+    ]
+  }
+]
