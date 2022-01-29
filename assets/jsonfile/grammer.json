@@ -1,11 +1,11 @@
 [
   {
-    "categoryName": "Beginner",
+    "categoryName": "Basic",
     "categoryImage": "assetimage",
     "subCategoryList": [
       {
-        "subCategoryName": "Alphabets ",
-        "subCategoryImage": "assetimage",
+        "subCategoryName": "Alphabets",
+        "subCategoryImage": "assets/images/basic/alphabets.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -24,6 +24,557 @@
           {
             "fourthTopicName": "Consonants",
             "fourthTopicDetails": "Vowel ছাড়া বাকি ১৯ টি অক্ষর সব consonant.   \n\nApart from vowels, rest of the alphabets are called consonants. A consonant must pair with (a) vowel(s) to make a syllable. Without pairing with vowels, consonants can’t make any syllable.\n\nSo, the consonant is the basic speech sound in which the breath is at least partly obstructed, and it can be combined with vowels to make syllables.\n\nএকটা শব্দে মাত্র একটি Vowel ছাড়া বাকি সবগুলোই consonant হতে পারে।\n\nExample of consonants:\n\na) Carry. C, r, r, and y are the consonants.\nb) Story. s, t, r, and y are consonants.\nc) Earning. r, n, and g are consonants."
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Word",
+        "subCategoryImage": "assets/images/basic/word.jpg",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Word কাকে বলে?",
+            "firstTopicDetails": "A word is a letter or a group of letters that have meaning when spoken or written. It’s a speech sound or combination of sounds that may consist of a single morpheme or a combination of morphemes. Words may be classified according to their meanings, uses, and actions, but it is very tough to define exactly."
+          },
+
+          {
+            "secondTopicName": "Word বা শব্দ হচ্ছে ব্যক্ত বা লিখিত বর্ণ বা বর্ণ সমষ্টি যার একটা নির্দিষ্ট অর্থ আছে।",
+            "secondTopicDetails": "Morphemes are the smallest grammatical meaningful units in a language. In the field of linguistic study, the branch that studies the structures of a word is called morphology, and the branch that studies the meanings of the word is called lexical semantics.\n\nকোন ভাষা শিক্ষার ক্ষেত্রে, ভাষার যে শাখা শব্দের গঠন নিয়ে আলোচনা করে তাকেই Morphology বলে। এবং যে শাখা শব্দের অর্থ নিয়ে কাজ করে তাকে lexical semantics বলে।\n\nExample:\n\n    Good (ভালো)\n    Look (দেখা)\n    Come (আসা)\n\nThe words mentioned above provide meanings. So, they are examples of the word.\n\nউপরের শব্দগুলো একটি নির্দিষ্ট অর্থ প্রকাশ করে, তাই তারা প্রতিটি একেকটি শব্দ।"
+          },
+          {
+            "thirdTopicName": "Word Criteria",
+            "thirdTopicDetails": "একটা পরিপূর্ণ অর্থবোধক শব্দ হওয়ার জন্য কিছু নিয়ম অনুসরণ করতে হয়। সেগুলো হচ্ছেঃ\n\n1. প্রত্যেকটা শব্দেরই একটা অর্থ থাকতে হবে। এখানে “halalization’ শব্দটির কোন অর্থ নেই ইংরেজী ভাষায়। তাই এটি শব্দের আওতাভূক্ত হবে না।\n\nEvery word must have a meaning. The word ‘halalization’ doesn’t have any exact meaning in English language, so it cannot be a word.\n\n2. প্রত্যেকটা শব্দেরই একটা root বা মূল শব্দ থাকে যা থেকে আরও অনেক নতুন শব্দ তৈরী হয়। যদি কোন কারণে ঐ root শব্দটি ভেঙে ফেলা হয় তাহলে সেটি কোনভাবেই আর একটি অর্থবোধক শব্দ থাকেনা। যেমন, এখানে দেখানো হয়েছে যে, happy একটি ইংরেজী শব্দ। এর আগে un যুক্ত হয়ে unhappy শব্দটি তৈরি করে।\n\nEvery word has a root. From this root, many new words can be created. If somehow, the root is broken, it will not be a word anymore. For example, say there is a word ‘unhappy’. The root is ‘happy’. A new word is created by adding ‘un’. If the root word happy is broken, it is not a valid word anymore.\n\n3. দুটি শব্দ একত্রে উচ্চারণ করার জন্যে শব্দ দুটির মাঝে একটু থামতে হয় এবং লেখার সময় সঠিক জায়গায় সঠিকভাবে space দিতে হয়। ধরা যাক, sky এবং blue দুটি ইংরেজি শব্দ। আমরা যদি তাদেরকে উচ্চারণ করতে চাই তাহলে প্রত্যেকটা শব্দ বলার পর একটু থামতে হবে। লিখতে গেলে দুইটা শব্দের মাঝখানে একটা space দিতে হবে।\n\nA necessary pause during speaking and an effective space during writing between two or more words are a must. For example, suppose ‘sky’ and ‘blue’ are two words. If we want to pronounce them, we need a potential pause after pronouncing each of them. So, it should be like that “blue” “sky”, not “bluesky” and if we want to use them in a sentence, we must put a space after writing each of the words like “blue sky.”"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Sentence (বাক্য)",
+        "subCategoryImage": "assets/images/basic/sentence.jpg",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Sentence কাকে বলে?",
+            "firstTopicDetails": "দুই বা ততোধিক শব্দসমষ্টি একত্রে মিলিত হয়ে বক্তার মনের ভাব সম্পূর্ণ রূপে প্রকাশ করলেই কেবল তাকে sentence বা বাক্য বলা যাবে।\n\nঅন্যথায়, একাধিক শব্দ এক সাথে মিলিত হলেও যদি সম্পূর্ণ রূপে মনের ভাব বা কথা প্রকাশ না করে তাহলে তাকে বাক্য বলা যাবে না। একটি সম্পূর্ণ বাক্য গঠণের জন্য নির্বাচিত শব্দসমূহকে অবশ্যই একটি সঠিক ক্রম বজায় রেখে সাজাতে হবে।\n\nThe sentence is known as the basic unit of English grammar. It contains a word or a group of words that expresses complete ideas, sense, feelings, or meaning and consists of a subject and a verb. Also, it may consist an object or a complement, and the words are ordered properly. A verb is a must in a sentence, and without a verb, no sentence can be formed.\n\nLook at the examples very carefully:\n\n    Shina eats pizza.\n\nIn this sentence, Shina is the subject, eat is a verb and pizza is an object.\n\n    Rahim loves to travel.\n\nHere, Rahim is the subject, loves is the verb and travel is an object or complement.\n\nSimilarly,\n\n    They play football.\n\nএখন, যদি word গুলোকে অগোছালোভাবে বা order maintain না করে সাজাই তাহলে একটি পূর্ণাঙ্গ বাক্য হবেনা।\n\nযেমনঃ Rahim loves to travel কে যদি আমরা Order maintain না করে লিখি তাহলে To travel loves Rahim. এখানে সম্পূর্ণ ভাবে মনের কোন অর্থ প্রকাশ পায় না। তাই এটা কোন বাক্য না।"
+          },
+
+          {
+            "secondTopicName": "Sentence কত প্রকার",
+            "secondTopicDetails": "There are five categories of sentences according to their meaning and functions. These are:\n\n    Assertive Sentence (বর্ণনামূলক বাক্য)\n    Interrogative Sentence (প্রশ্নবোধক বাক্য)\n    Imperative Sentence (অনুজ্ঞাসূচক বাক্য)\n    Optative Sentence (প্রার্থনা সূচক বাক্য)\n    Exclamatory Sentence (বিস্ময়সূচক বাক্য)\n"
+          },
+          {
+            "thirdTopicName": "Assertive Sentence (বর্ণনামূলক বাক্য)",
+            "thirdTopicDetails": "যে Sentence দ্বারা কোন কিছুর বর্ননা বা বিবৃতি প্রকাশ করে তাকে Assertive sentence বলে।\n\nAn assertive sentence is a simple statement or assertion, and it may be affirmative or negative.\n\nYou may follow a pattern like “subject + verb + object/complement/adverb”.\n\nExample:\n\n    He reads the book.\n\nএকটি সাধারণ বিবৃতিমূলক বাক্য এবং Affirmative বা হ্যাঁ সূচক বাক্য। এখানে, He হচ্ছে Subject, reads হলো Verb এবং the book হচ্ছে object. ... এখন উপরে দেয়া pattern এর সাথে খুব সহজেই মিলে যাচ্ছে।\n\n    We do not run in the Sun. একটি সাধারণ বিবৃতি এবং Negative sentence এর উদাহরণ।\n    Everyone should read this poem. এখানে should একটি Modal Auxiliary.\n"
+          },
+          {
+            "fourthTopicName": "Interrogative Sentence (প্রশ্নবোধক বাক্য)",
+            "fourthTopicDetails": "যে Sentence দ্বারা কোন প্রশ্ন করা হয় অথবা কোন কিছুর প্রত্যুত্তর পাওয়ার উদ্দেশ্যে জিজ্ঞেস করা হয় তখন তাকে Interrogative Sentence বলে।\n\nAn interrogative sentence asks any questions to get a reply to something or someone and ends with an interrogative sign (?).\n\nOne of the two following ways may form an interrogative sentence.\n\n1. It may begin with Helping verbs and Modals Auxiliaries.\n\nAuxiliary Verbs: am, is, are - was, were - have, has, had, etc.\n\nModals Auxiliaries:   shall, should, will, would, can, could, may, might, etc.\n\nExample:\n\n    Do you need some money?\n    Is he your Brother?\n    Should I call you?\n\n    May begin with “WH” questions like who, where, when, whom, what, which, how, etc.\n\nExample:\n\n    What is your address?\n    Whom do you want?\n    How much money do you want?\n"
+          },
+          {
+            "fifthTopicName": "Imperative Sentence (অনুজ্ঞাসূচক বাক্য)",
+            "fifthTopicDetails": "যে Sentence দ্বারা কোন আদেশ, উপদেশ, নিষেধ, অনুরোধ ইত্যাদি বোঝায় তাকেই Imperative sentence বা অনুজ্ঞাসূচক বাক্য বলে। এই ধরনের বাক্যে Subject (you)  গোপন থাকে।\n\nIt expresses request, order, advice, command, and suggestion.\n\nএকটি সহজ pattern অনুসরণ করা যেতে পারেঃ\n\n “(Subject (invisible) + verb + object)”\n\nExample:\n\n    Do it quickly. (Order)\n    Never tell a lie. (Advice)\n    Please, give me a pen. (Request)\n"
+          },
+          {
+            "sixthTopicName": "Optative Sentence (প্রার্থনা সূচক বাক্য)",
+            "sixthTopicDetails": "যে Sentence দ্বারা মনে ইচ্ছা কিংবা প্রার্থনা প্রকাশ করে তাকে Optative Sentence বলে।\n\nIt expresses desire, prayer, wish, etc.\n\nA simple pattern can help you more. That is (MAY + ASSERTIVE), but at the same time you should keep in mind that an Optative sentence can be formed without “MAY”.\n\nবেশিরভাগ optative sentence এই may ব্যবহৃত হয়। তবে কিছু কিছু ক্ষেত্রে ব্যাতিক্রম আছে।\n\nExample:\n\n    May Allah help you to overcome all the obstacles.\n    May you be happy in your future life.\n    Live long our president.\n\nসর্বশেষ উদাহরণটির দিকে তাকালেই বুঝতে পারবেন যে May ছাড়াও Optative sentence হয়। তাই, এটা সবসময় বাধ্যতামূলক নয় যে Optative sentence এর শুরুতে May থাকতেই হবে।"
+          },
+          {
+            "seventhTopicName": "Exclamatory Sentence (বিস্ময়সূচক বাক্য)",
+            "seventhTopicDetails": "Exclamatory sentence দ্বারা হঠাৎ আকস্মিকভাবে মনের কোন পরিবর্তন যেমন হর্ষ, বিষাদ, আনন্দ, আবেগ বা বিস্ময় প্রকাশ করা হয়।\n\nIt expresses sudden or strong feelings or emotions like surprise, anger, delight, pain, etc. It is a term of the sudden change of mind.\n\nSometimes, it can start with Alas, Bravo, Ah, Hurrah, What, How, etc.\n\nAn exclamatory sign is mandatory after the end of it. কখনো কখনো এই বিস্ময়সূচক চিহ্নটি (!) বাক্যের শুরুতেই বসে । কোন বাক্য যদি Alas, Bravo, ah, Oh, Hurrah ইত্যাদি দিয়ে শুরু হয় তাহলে এই শব্দগুলোর পরই বিস্ময়সূচক চিহ্ন বসাতে হয়।\n\nExample:\n\n    Hurrah! We’ve won the game.\n    What a beautiful scene!\n    Alas! You’ve failed in English.\n\nThere are three types of sentences according to their structure:\n\n    Simple sentence (সরল বাক্য)\n    Complex sentence (জটিল বাক্য)\n    Compound Sentence (যৌগিক বাক্য)\n"
+          },
+          {
+            "eighthTopicName": "Simple sentence (সরল বাক্য)",
+            "eighthTopicDetails": "যে সকল বাক্যে একটি মাত্র Subject or object এবং একটিমাত্র সমাপিকা ক্রিয়া (finite verb) থাকে তাকেই Simple sentence বা সরল বাক্য বলে।\n\nIn a simple sentence, there is only one subject and one finite verb. It has only one independent clause.\n\nNow the question is what a clause is.\n\nA Clause is a sentence or a part of it, and it may be dependent or independent.\n\nE.g., “He hates me” is a sentence, which has only one clause. “He hates me, and I hate him too” is also a sentence and it has two clauses; one is “He hates me,” and another is “I hate him too.” These two clauses are joined together by a conjunction ‘and.'\n\nYou may follow a simple pattern like:\n\nSubject + Finite verb + complement\n\nExample:\n\n    Cox’s Bazar is the largest sea-beach in the world.\n    She wrote an application to the principal.\n    Bangladesh is a developing country.\n\nপ্রত্যেকটি উদাহরণে একটি করে subject এবং একটি করে সমাপিকা ক্রিয়া আছে।"
+          },
+          {
+            "ninthTopicName": "Complex sentence (জটিল বাক্য)",
+            "ninthTopicDetails": "যে সকল বাক্যে একটি প্রধান খন্ড বাক্য থাকে এবং তার উপর আশ্রয় বা অবলম্বন করে আরও এক বা একাধিক খন্ড বাক্য থাকে তাকেই Complex sentence জটিল বাক্য বা মিশ্র বাক্য বলে।\n\nIt consists of one main clause and one or more subordinate clauses or adverbial clauses.\n\n1. Adverbial clauses come after the main clause.\n\n    His brother died when he was seven years old.\n\nHis mother died (Main clause)\n\nWhen (subordinating conjunction)\n\nHe was two years old. (Adverbial clause)\n\n    If you read regularly, you will do well in the exam.\n\nHere, ‘if you read regularly’ is a subordinate clause and ‘you will do well in the exam’ is the main clause.\n\n2. The best way to detect Subordinate clause is that it always begins with conjunctions like where, what, when, that, while, who, if, whether, because, whenever, whoever, whatever, wherever, though, although, till, until, unless, after, before, so that, etc.\n\n    You did not even hear what his name was.\n    Though he lives in America, he speaks Bengali fluently.\n"
+          },
+          {
+            "tenthTopicName": "Compound Sentence (যৌগিক বাক্য)",
+            "tenthTopicDetails": "অর্থাৎ, নিরপেক্ষ দুই বা তার অধিক সরল বাক্য যদি কোন সংযোজক অব্যয় দ্বারা সংযুক্ত হয়ে একটি সম্পূর্ণ বাক্য তৈরী করে তখন তাকে Compound sentence বা যৌগিক বাক্য বলা হয়।\n\nIt incorporates at least two principal clauses. These clauses are linked by one or more coordinating conjunctions, punctuations, or both.\n\nConjunctions that are used in compound sentences are and, or, but, for, not, also, thus, however, moreover, therefore, so, still, else, as well as, otherwise, accordingly, yet, not yet, but also, either or, neither nor, on the contrary, etc.\n\nExample:\n\n    He is poor but happy.\n    We searched him everywhere but did not find.\n    Mou shouted, and all the people started to clap their hands.\n"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Parts of Speech (পদ প্রকরণ)",
+        "subCategoryImage": "assets/images/basic/parts-of-speech.jpg",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Parts of Speech কাকে বলে? কত প্রকার ও কি কি?",
+            "firstTopicDetails": "Definition (1):\n\nবাক্যে ব্যবহৃত প্রত্যেকটি শব্দকে এক একটি Part of Speech বলে।\n\nEvery single word we use in a sentence is called a Part of Speech.\n\nExample:\n\n    Karim is a good boy.\n    He goes to school\n    Ashik eats Rice.\n\n১ নং বাক্যে,  Karim, is, a, good, এবং boy প্রত্যেকটি একেকটি part of speech.  \n\nঠিক একই ভাবে ২ নং বাক্যে, he, goes, to , school ইত্যাদি আলাদা আলাদা ভাবে প্রত্যেকটিই একেকটি Part of Speech. কারণ, তারা প্রত্যেকটিই বাক্যের অংশ। ৩ নং বাক্যটিতে মোট তিনটি শব্দ বা word আছে। সুতরাং এই বাক্যের তিনটি part of speech আছে।\nDefinition (2):\n\nWords are considered as the smallest part of a sentence.  According to the use and work, words are divided into different classes, called parts of speech.\n\nবাক্যে, ব্যবহার এবং কাজের উপর ভিত্তি করে শব্দসমূহকে বিভিন্ন শ্রেনীতে ভাগ করা হয়েছে। বাক্যের অন্তর্গত এই প্রত্যেকটা শব্দকেই Parts of Speech বলে।\n\nExample:\n\n    Do not run in the sun.\n    Walking is the best exercise.\n    He went to school.\n\nউপরোল্লেখিত বাক্যেগুলোতে ব্যবহৃত প্রত্যেকটি শব্দকেই Part of Speech বলে।\n\nNote: একটা কথা মনে রাখতে হবে যে, শব্দগুলো অবশ্যই কোন না কোন বাক্যের অংশ হতে হবে। আলাদা ভাবে কোন একটা শব্দকে part of speech বলা যাবে না।অর্থাৎ সকল Parts of Speech ই Word কিন্তু সকল Word ই Parts of Speech না।\n\nPart of Speech মানে বাক্যের অংশ। Word যতক্ষণ বাক্যে ব্যবহার না হবে ততক্ষণ এটাকে Parts of Speech বলা যাবেনা। আমি যদি বলি Water তাহলে সেটা কোন Part of Speech হবেনা । কারণ, এটা কোন বাক্যের অংশ নয়। সম্পূর্ন আলাদা একটা শব্দ মাত্র। কিন্তু আমি যদি বলি Water is life তাহলে Water একটি Parts of Speech হবে। কারণ, এখানে water বাক্যেরই একটি অংশ।"
+          },
+
+          {
+            "secondTopicName": "Parts of Speech এর প্রকারভেদ",
+            "secondTopicDetails": "There are eight types of parts of speech according to their functions in a sentence.\n\n    Noun (বিশেষ্য)\n    Pronoun (সর্বনাম)\n    Adjective (নাম বিশেষণ)\n    Verb (ক্রীয়া বা কাজ)\n    Adverb (ক্রীয়া বিশেষণ)\n    Preposition (পদান্বয়ী অব্যয়)\n    Conjunction (সংযোজক অব্যয়)\n    Interjection (আবেগ সূচক অব্যয়)\n"
+          },
+          {
+            "thirdTopicName": "Noun (বিশেষ্য)",
+            "thirdTopicDetails": "যে word দ্বারা কোন কিছুর নাম প্রকাশ করা হয় তাকে noun বলে । আমাদের চোখের সামনে যা দেখি সেগুলোর নামকেই noun বলে। Noun দ্বারা কোন ব্যক্তি, বস্তু, প্রাণী ,স্থান ,ঘটনা ইত্যাদির নাম বোঝায়।\n\nNoun refers to any kind of name. This means, whatever we are seeing and watching around us is a noun.\n\nNouns are used to name persons, things, animals, events, places, ideas etc.\n\nExample:\n\n    Karim does not like to go to school. (এই বাক্যে Karim একজন ব্যক্তির নাম।)\n    Kuwait is a Muslim country. (এখানে কুয়েত একটি দেশের নাম।)\n    Diamond is very valuable. (ডায়মন্ড একটি বস্তুর নাম।)\n\nNouns are classified into five types. These are:\n\n    Proper Noun (নাম বাচক বিশেষ্য)\n    Common Noun (জাতিবাচক বিশেষ্য)\n    Collective Noun (সমষ্টিবাচক বিশেষ্য)\n    Material Noun (বস্তুবাচক বিশেষ্য)\n    Abstract Noun (গুণবাচক বিশেষ্য)\n"
+          },
+          {
+            "fourthTopicName": "Pronoun (সর্বনাম)",
+            "fourthTopicDetails": "সহজভাবে, যে সকল শব্দ আমরা নামের পরিবর্তে বসাই তাকেই Pronoun বা সর্বনাম বলে। যেমন, He, She, We etc.\n\nThe word which we use instead of Noun is called Pronoun.\n\nExample:\n\n    Karim is a good boy. (এখানে Karim একটি Noun).\n    He goes to school every day.\n    We should take care of our children.\n\nউপরের উদাহরণ গুলোতে Karim নামক একটি ছেলের সম্পর্কে বলা হয়েছে। প্রথম বার তার নাম Karim হিসেবে ব্যবহার করা হয়েছে,পরবর্তীতে যতবার তার নাম আসবে ততবার তার নামের পরিবর্তে Pronoun হিসেবে He ব্যবহার করা যাবে। তেমনি বিভিন্ন ধরনের Noun এর gender এবং number অনুযায়ী Pronoun বসাতে হয়।"
+          },
+          {
+            "fifthTopicName": "Adjective (নাম বিশেষণ)",
+            "fifthTopicDetails": "যে সকল শব্দ দ্বারা কোন Noun বা Pronoun এর দোষ, গুণ, সংখ্যা, পরিমাণ, অবস্থা ইত্যাদি প্রকাশ করা হয় তাকে Adjective বলে।\n\nAdjectives qualify only Noun and Pronoun. It specifies the quality, number and size of nouns or pronouns. It describes nouns or pronouns.\n\nExample:\n\n    Naima is a beautiful (এখানে Noun এর গুণ বুঝাচ্ছে)\n    He has three red pens. (Noun এর সংখ্যা বুঝাচ্ছে)\n    Safi is (Noun এর অবস্থা বুঝাচ্ছে)\n"
+          },
+          {
+            "sixthTopicName": "Verb (ক্রিয়া বা কাজ)",
+            "sixthTopicDetails": "Verb is an important part of speech. Without a verb, no sentence can be formed. It shows a physical or mental action. Verb always believes in doings and actions.\n\nযে শব্দ দ্বারা কোন কাজ করা/হওয়া বুঝায় তাকেই Verb বলে। যেমন, go, eat, sleep, buy, sell, walk, run, see, play, write, give etc.\n\nExample:\n\n    We play cricket.\n    He writes a letter.\n    He gave me a glass of water.\n"
+          },
+          {
+            "seventhTopicName": "Adverb (ক্রিয়া বিশেষণ)",
+            "seventhTopicDetails": "যে সকল শব্দ  Verb, Adjective বা অন্য  adverb কে Modify করে বা কোনকিছু add করে সেই সকল শব্দগুলোকে Adverb বলে। যেমন, very, slowly, well, carefully etc.\n\nThe word that usually modifies the verb, adjective or other adverb is known as an adverb.\n\nExample:\n\n    He asked my name gently.\n    She walks slowly.\n    She bought a very long dress.\n"
+          },
+          {
+            "eighthTopicName": "Preposition (পদান্বয়ী অব্যয়)",
+            "eighthTopicDetails": "Preposition defines the relationship between nouns or pronouns with another word in a sentence. It works as a connector and specifies the location or a location in time.\n\nবাংলায় Pre শব্দের অর্থ পূর্বে আর Position শব্দের অর্থ অবস্থান। তাই খুব সহজেই বুঝা যায় যে, যেসব শব্দ Noun বা Pronoun এর পূর্বে অবস্থান করে বাক্যের অন্যান্য অংশের সাথে ঐ Noun বা Pronoun এর সম্পর্ক স্থাপন করে তাকে Preposition বলে। যেমন, in, on, under, with, at, over, of, below, throughout, by, about, until etc.\n\nExample:\n\n    The book is on the table.\n    Rahim is hiding behind the tree.\n    The girl brought a letter for me from the teacher who taught us English.\n\n১ম বাক্যের দিকে তাকালে আমরা দেখতে পাই যে যদি আমরা  Noun এর পূর্বে কোন preposition না বসাই তাহলে  “The table” Noun টি বাক্য থেকে বিচ্ছিন্ন  হয়ে যাচ্ছে। On বসানোর সাথে সাথেই সেটি বাক্যের সাথে সংযুক্ত হয়ে যায়। ঠিক একই ভাবে বাকি Sentence গুলোতেও behind এবং from একই কাজ করছে।"
+          },
+          {
+            "ninthTopicName": "Conjunction (সংযোজক অব্যয়)",
+            "ninthTopicDetails": "যেসব Word একাধিক শব্দ, বাক্য কিংবা Clause কে সংযুক্ত করে তাদেরকে Conjunction বলে। যেমন, and, or, but, yet, for, nor, so, because etc.\n\nUsually, conjunction joins the word with another word or joins a sentence with another sentence. It is a connector. It links words, sentences, phrases or clauses.\n\nExample:\n\n    Saif and Sourav are good friends. (এখানে দুটি শব্দকে সংযুক্ত করেছে)\n    Akash is a boy, but Mou is a girl. (দুটি clause কে সংযুক্ত করেছে)\n    She gave me the letter and then she quickly (দুটি clause কে সংযুক্ত করেছে)\n"
+          },
+          {
+            "tenthTopicName": "Interjection (আবেগসূচক অব্যয়)",
+            "tenthTopicDetails": "It expresses strong feelings, emotions and sudden changes of mind. It may be sudden happiness or sadness.\n\nInterjection হঠাৎ করে মনের আবেগ কিংবা অনুভূতির কোন পরিবর্তন/প্রকাশ কে বুঝায়। যেমন, Hurrah, Alas, Oh, Bravo, Ouch, Ah etc.\n\nExample:\n\n    Alas! Her father is dead.\n    Hurrah! We’ve won the game.\n    Oh! What a beautiful girl she is!\n"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Noun (বিশেষ্য)",
+        "subCategoryImage": "assets/images/basic/noun.jpg",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Noun কাকে বলে",
+            "firstTopicDetails": "যে word দ্বারা কোন কিছুর নাম প্রকাশ করা হয় তাকেই noun বলে । আমাদের চোখের সামনে যা দেখি সেগুলোর নামকেই noun বলে। এটি দ্বারা কোন ব্যক্তি, বস্তু, প্রাণী ,স্থান ,ঘটনা ইত্যাদির নাম বোঝায়।\n\nIt refers to any kind of name. Means, whatever we are seeing and watching around us is noun.\n\nThese are used to name persons, things, animals, events, places, ideas, etc.\n\nExample:\n\n    Karim does not like to go to school. এই বাক্যে Karim একজন ব্যক্তির নাম।\n    Kuwait is a Muslim country. এখানে কুয়েত একটি দেশের নাম।\n    Diamond is very valuable. ডায়মন্ড একটি বস্তুর নাম।\n"
+          },
+
+          {
+            "secondTopicName": "Noun এর প্রকারভেদ",
+            "secondTopicDetails": "Nouns are classified into five types.\n\n    Proper Noun (নাম বাচক বিশেষ্য)\n    Common Noun (জাতিবাচক বিশেষ্য)\n    Collective Noun (সমষ্টিবাচক বিশেষ্য)\n    Material Noun (বস্তুবাচক বিশেষ্য)\n    Abstract Noun (গুণবাচক বিশেষ্য)\n"
+          },
+          {
+            "thirdTopicName": "Proper Noun (নাম বাচক বিশেষ্য)",
+            "thirdTopicDetails": "যে Noun দ্বারা কোন নির্দিষ্ট ব্যক্তি, বস্তু বা স্থানের নাম বোঝায় তাকে Proper Noun বলে।\n\nIt refers to specific names of persons, things, places, etc. and always starts with a capital letter.\n\nExample:\n\n    I like the story of Shakespeare. (Shakespeare নির্দিষ্ট একজন ব্যক্তির নাম)\n    We planned to visit Sylhet. ( Sylhet নির্দিষ্ট একটি জায়গার নাম)\n    Have you ever seen the Tajmahal? (Tajmahal একটি স্থাপনার নাম)\n"
+          },
+          {
+            "fourthTopicName": "Common Noun (জাতিবাচক বিশেষ্য)",
+            "fourthTopicDetails": "যে Noun দ্বারা একই জাতীয় কোন ব্যক্তি, বস্তু বা প্রাণীকে নির্দিষ্ট করে না বুঝিয়ে সে জাতীয় সকলকে একসাথে বুঝায় তাকেই Common Noun বলে । যেমন, Student, Book, Dog, Flower etc.\n\nIt refers to specific generic names of persons, places, things, etc. It is the opposite of Proper Noun.\n\nExample:\n\n    Alex is a student. (Student দ্বারা সকল ছাত্র-ছাত্রীদেরকেই বুঝানো হয়েছে। নির্দিষ্ট কোন ছাত্র কিংবা ছাত্রী কে আলাদা করে বুঝায়নি)\n    Dogs can be very cute. ( Dog দ্বারা সকল জাতীয় কুকুর কে বুঝানো হয়েছে। সেটা যে কোন জাতের কিংবা ধরনের বা রঙের হতে পারে। যে কোন দেশের যে কোন কুকুর হতে পারে।)\n    You love ( এখানে flower দ্বারা সবরকম ফুলকে বুঝানো হয়েছে। এটা যে কোন জাতের বা ধরনের ফুল হতে পারে। হতে পারে গোলাপ কিংবা টিউলিপ, শিউলী অথবা রজনীগন্ধা কিংবা যে কোন ফুল হতে পারে।)\n"
+          },
+          {
+            "fifthTopicName": "Collective Noun (সমষ্টিবাচক বিশেষ্য)",
+            "fifthTopicDetails": "Collective Noun দ্বারা কোন ব্যক্তি, বস্তু বা প্রাণীর সমষ্টি কে বুঝায়। যেমন, Club, Army, Class, Family, etc.\n\nIt, in English Grammar, refers to a group of things, persons or animals.\n\nExample:\n\n    Our class took a trip to Sundarbans.\n    Bangladeshi Army is doing a great job in UN mission.\n    Each team contains eleven players.\n"
+          },
+          {
+            "sixthTopicName": "Material Noun (বস্তুবাচক বিশেষ্য)",
+            "sixthTopicDetails": "যে Noun দ্বারা ওজন আছে কিন্তু গণনা করা যায় না এমন কিছুর নাম বোঝায় তাকেই Material Noun বলে। যেমন, Gold, Glass, Salt, Iron, Silver, Cloth, Air, Milk, etc.\n\nIt is an uncountable noun. It’s a substance or material that we can see and touch but can’t count.\n\nExample:\n\n    You can purchase a gold ring for your sister.\n    We may attain salt from sea-water.\n    Cotton dress is my favorite.\n"
+          },
+          {
+            "seventhTopicName": "Abstract Noun (গুণবাচক বিশেষ্য)",
+            "seventhTopicDetails": "যে Noun দ্বারা কোন ব্যক্তি কিংবা বস্তুর গুণ, কাজের নাম কিংবা অবস্থা প্রকাশ করা হয় তাকে Abstract Noun বলে। যেমন, Liberty, anger, freedom, kindness, love, happiness, beauty, ইত্যাদি।\n\nIt express ideas, feelings, realizations, and qualities that we can’t see, touch, hear, taste or smell. We can understand and imagine it but can’t even see it. It’s a feeling, not a physical thing.\n\nExample:\n\n    My love for you cannot be measured.\n    His kindness is his real beauty.\n    Her beauty makes me crazy.\n"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Pronoun (সর্বনাম)",
+        "subCategoryImage": "assets/images/basic/pronoun.jpg",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Pronoun কাকে বলে?",
+            "firstTopicDetails": "যে সকল শব্দ আমরা নামের পরিবর্তে ব্যবহার করি তাদেরকেই Pronoun বা সর্বনাম বলে।\n\nযেমন, He, She, We etc.\n\nThe word which we use instead of Noun is called Pronoun. A pronoun always replaces a noun.\n\nExample:\n\n    Karim is a good boy. (এখানে Karim একটি Noun)\n    He goes to school every day.\n    We should take care of our children.\n\nউপরের উদাহরণ গুলোতে Karim নামক একটি ছেলের সম্পর্কে বলা হয়েছে। প্রথম বার তার নাম Karim হিসেবে ব্যবহার করা হয়েছে,পরবর্তিতে যতবার তার নাম আসবে ততবার তার নামের পরবর্তে Pronoun হিসেবে He ব্যবহার করতে হবে। তেমনি বিভিন্ন ধরনের Noun অনুযায়ী Pronoun বসাতে হয়।"
+          },
+
+          {
+            "secondTopicName": "Pronoun এর প্রকারভেদ",
+            "secondTopicDetails": "There are several different kinds of pronouns. These are:\n\n    Personal pronouns\n    Demonstrative pronouns\n    Interrogative pronouns\n    Indefinite pronouns\n    Possessive pronouns\n    Reciprocal pronouns\n    Relative pronouns\n    Reflexive pronouns\n    Intensive pronouns.\n"
+          },
+          {
+            "thirdTopicName": "Personal pronouns",
+            "thirdTopicDetails": "Personal pronouns দ্বারা নির্দিষ্ট কোন ব্যক্তি, বস্তু বা group কে বোঝায়।\n\nPersonal pronouns are pronouns that refer to a certain person, thing, or group.\n\nI, it, he, they, she, we, and you are the personal pronouns.\n\nSubject pronouns:\n\nযে pronoun গুলো বাক্যে subject হিসেবে বসে সেগুলো Subject Pronoun.\n\nPronouns can be the subject of a sentence or clause. These are called subject pronouns.\n\nSubject Pronouns: I, we, he, she, they, it.\n\n    I love bananas.\n    He and I had a deal.\n    They should go for a study tour.\n\nObject pronouns:\n\nObject pronoun, subject pronoun এর বিপরীত। Subject pronoun এবং object pronoun এর form ভিন্নরকম।\n\nObject pronoun গুলো হলঃ Me, us, him, her, them, it.\n\n    Ratul loves her.\n    You should warn them.\n    Please, take it seriously.\n"
+          },
+          {
+            "fourthTopicName": "Demonstrative pronouns",
+            "fourthTopicDetails": "Demonstrative pronoun গুলো noun এর আগে বসে সেই noun কে নির্দিষ্ট করে। এগুলো সাধারণত adjective হিসেবে কাজ বেশি করে। কিন্তু যখন noun টি উহ্য থাকে তখন এগুলোকে demonstrative pronoun বলা হয়।\n\nThese are indicate or demonstrate something specific in the sentence.\n\nThese, those, that, such and this are the demonstrative pronouns.\n\nExample:\n\n    Should I bring those?\n    This is the last one that I left in the room.\n    Those are beautiful.\n"
+          },
+          {
+            "fifthTopicName": "Interrogative pronouns",
+            "fifthTopicDetails": "কোন প্রশ্ন জিজ্ঞেস করার জন্যে যে pronoun ব্যবহার করা হয় তাকে interrogative pronouns বলে.  \n\nInterrogative pronouns are used to ask or make any questions.\n\nWho, which, when, what, whose are the interrogative pronouns.\n\nExample:\n\n    Who is your friend? (Used to ask a question about people)\n    What do you want for a meal? (Used to ask a question about object)\n    Whom do you want? (Used to ask a question about people)\n"
+          },
+          {
+            "sixthTopicName": "Possessive pronouns",
+            "sixthTopicDetails": "কোন কিছুর মালিকানা বা অধিকার বোঝাতে possessive adjectives (my, our, their, his, her, its) এর পরে যে  noun থাকে তার পরিবর্তে যে pronoun ব্যবহার করা হয়, সেগুলোই possessive pronoun.    \n\nIt replaces the nouns of the possessive adjectives: my, our, your, her, his, and their. The possessive pronouns are mine, ours, yours, hers, his, its, and theirs. The pronoun ‘who’ also has a possessive form, whose.\n\nExample:\n\n    Have you brought your jacket? I didn’t bring mine. (My jacket)\n    My book has been stolen by someone. Can I see yours?\n    It is my dog, not his.\n"
+          },
+          {
+            "seventhTopicName": "Relative pronouns",
+            "seventhTopicDetails": "বাক্যের ভিতরে কোন একটি noun সম্পর্কে নতুন তথ্য সংযুক্ত করার জন্য Relative pronouns ব্যবহার করা হয়।\n\nThese are used to connect more information to a clause or sentence.\n\nThat, which, who, whom, whose, where are the relative pronouns.\n\nExample:\n\n    The man who is wearing the black sun-glass is my uncle.\n    This is the place where I lived for two years.\n    The shirts that I bought the previous day were excellent.\n"
+          },
+          {
+            "eighthTopicName": "Reflexive pronouns",
+            "eighthTopicDetails": "Subject এবং object একই ব্যাক্তি বা বস্তু হলে reflexive pronouns বসাতে হয়। Reflexive pronoun গুলো subject কেই object হিসেবে reflect করে।\n\nWhen the subject itself comes again as an object, reflexive pronouns are used. They end with self/selves. Himself, myself, herself, themselves, etc. are examples of it.\n\nExample:\n\n    He killed himself.\n    They hurt themselves when they tripped on the stairs.\n    I told myself not to waste valuable time.\n"
+          },
+          {
+            "ninthTopicName": "Intensive pronouns",
+            "ninthTopicDetails": "অন্য কোন noun বা pronoun এর উপরে গুরত্ব প্রদান করার জন্যে যেসকল pronoun ব্যবহৃত হয়, তাদেরকে Intensive pronouns বলা হয়। Reflexive pronoun এবং intensive pronoun দেখতে একই রকম কিন্তু intensive pronoun বাক্যে object হিসেবে ব্যবহৃত হয় না ।\n\nIt ends in self/selves and refers back to another noun or pronoun to emphasize in the sentence.\n\nExample:\n\n    Rahim opened the door himself.\n    I wash my clothes myself.\n"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Adjective (নাম বিশেষণ)",
+        "subCategoryImage": "assets/images/basic/Adjective.jpg",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Adjective কাকে বলে?",
+            "firstTopicDetails": "যে সকল শব্দ দ্বারা কোন Noun বা Pronoun এর দোষ, গুণ, সংখ্যা, পরিমাণ, অবস্থা ইত্যাদি প্রকাশ করা হয় তাকে Adjective বলে।\n\nAdjectives qualify only nouns and pronouns. It specifies the quality, number, and size of nouns or pronouns. Simply, it describes nouns or pronouns.\n\nExample:\n\n    Namira is a beautiful (এখানে Noun এর গুণ বুঝাচ্ছে)\n    He has three red pens. (Pronoun এর সংখ্যা বুঝাচ্ছে)\n    Safi is ill. (Noun এর অবস্থা বুঝাচ্ছে)\n\nThere are 3 Degrees of adjectives. And these are:\n\n    A positive adjective\n    A comparative adjective\n    A superlative adjective\n"
+          },
+          {
+            "secondTopicName": "Positive adjective",
+            "secondTopicDetails": "Positive adjective দ্বারা কোন তুলনা করা বোঝায় না। সাধারণভাবে noun বা pronoun এর বর্ণনা করে।\n\nIt is a simple adjective, and it is used to describe, not to compare anything.\n\nExample:\n\n    He is a good boy.\n    It is a beautiful garden.\n    Akash is sick.\n"
+          },
+          {
+            "thirdTopicName": "Comparative adjective",
+            "thirdTopicDetails": "This type of adjective is used to compare two things, sometimes the word ‘than’ is used between the two nouns or pronouns.\n\nদুইটি জিনিসের মধ্যে তুলনা বোঝাতে comparative adjective ব্যবহার করা হয়।\n\nExample:\n\n    Rahim is better than Karim. (রহিম করিমের চেয়ে ভাল)\n    Namira is more beautiful than Samira. (নামিরা সামিরার চেয়ে বেশি সুন্দরী)\n    He is funnier than her. (সে তার থেকেও বেশি হাস্যকর)\n"
+          },
+          {
+            "fourthTopicName": "Superlative adjective",
+            "fourthTopicDetails": "দুইয়ের অধিকের মধ্যে তুলনা করে সবচেয়ে ভাল/খারাপ/কম/বেশি ইত্যাদি বোঝাতে superlative adjective ব্যবহার করা হয়।\n\nIt is used to express that something is the best/most and compares three or more things.\n\nExample:\n\n    She is the most beautiful girl in the world. (সে সারা পৃথিবীর মধ্যে সবচেয়ে সুন্দরী মেয়ে)\n    He is the funniest person. (সে সবচেয়ে মজার মানুষ)\n    This is the best lunch in this restaurant. (এটা এই রেস্টুরেন্টের সবচেয়ে ভাল দুপুরের খাবার)\n"
+          },
+          {
+            "fifthTopicName": "Adjective এর প্রকারভেদ",
+            "fifthTopicDetails": "There are seven types of Adjectives. These are:\n\n    Descriptive adjectives/qualitative adjectives/adjective of quality\n    Adjectives of number/Numeric adjective\n    Adjectives of quantity/quantitative adjectives\n    Demonstrative adjectives\n    Possessive adjectives\n    Interrogative adjectives\n    Distributive adjectives\n"
+          },
+          {
+            "sixthTopicName": "Descriptive adjective",
+            "sixthTopicDetails": "Descriptive Adjective সাধারণত noun বা pronoun এর quality বোঝায় এবং তার সম্পর্কে বর্ণনা করে।\n\nযেমন: Nice, good, bad, beautiful, charming, nice, etc.\n\nIt is used to express the qualities of noun or pronoun. It is also used for the description of someone or something.\n\nExample:\n\n    He told me about a great moment in his life.\n    She is looking good.\n    You are a bad boy.\n"
+          },
+          {
+            "seventhTopicName": "Adjectives of number/Numeric adjective",
+            "seventhTopicDetails": "Noun বা pronoun এর সংখ্যা বা ক্রম বোঝাতে numeric adjective ব্যবহার করা হয়।\n\nযেমন: Two, three, four, first, second, third, Single, double, triple, etc.\n\nIt is used to express the number or order of nouns or pronouns.\n\nExample:\n\n    He is the first boy in the class.\n    She can drink two cups of tea at a time.\n    The owner of the house does not rent the room to the single\n"
+          },
+          {
+            "eighthTopicName": "Adjectives of quantity/quantitative adjectives",
+            "eighthTopicDetails": "Noun বা Pronoun এর পরিমাণ বোঝাতে quantative adjective ব্যবহার করা হয়।\n\nযেমন: Some, enough, many, little, much, whole, sufficient, all, none, half, more, etc.\n\nIt is used to express or indicate the quantity of a noun or pronoun or something.\n\nExample:\n\n    I’ve enough money.\n    The whole country is happy today.\n    Give me some peanuts.\n"
+          },
+          {
+            "ninthTopicName": "Demonstrative adjectives",
+            "ninthTopicDetails": "Noun বা pronoun কে নির্দিষ্ট করে বোঝাতে demonstratives ব্যবহৃত হয়।\n\nযেমন: This, that, those, these, etc.\n\nDemonstratives are used to specify the noun or pronoun.\n\nExample:\n\n    This book is mine. (এই বইটি আমার)\n    That is his room. (এটি তার কক্ষ)\n    These notes should be followed. (এই নোট গুলো অনুসরণ করা উচিৎ)\n"
+          },
+          {
+            "tenthTopicName": "Possessive adjectives",
+            "tenthTopicDetails": "বাক্যে মালিকানা বা নিজস্ব কোন সম্পদ বোঝাতে possessive ব্যবহার করা হয়।\n\nSuch as, my, her, their, our, your, etc.\n\nPossessives are used to show the possession or belongingness in the sentence.\n\nExample:\n\n    I’ve seen her (আমি তার বিড়ালটিকে দেখেছি)\n    Their house is very big. (তাদের বাড়িটি অনেক বড়)\n    This is our school pond. (এটা আমাদের স্কুলের পুকুর)\n"
+          },
+          {
+            "eleventhTopicName": "Interrogative adjectives",
+            "eleventhTopicDetails": "Interrogative adjectives সাধারণত Noun বা pronoun কে প্রশ্নের মাধ্যমে modify করে।\n\nWhat, which and whose are known as interrogative adjectives.\n\nIt modifies nouns or pronouns and forms a question.\n\nExample:\n\n    What kind of tree is it?\n    Which subject do you want to teach?\n    Whose room is this?\n"
+          },
+          {
+            "twelveTopicName": "Distributive adjectives",
+            "twelveTopicDetails": "কোন group এর কাউকে নির্দিষ্ট করে বর্ণনা করতে Distributive Adjective ব্যবহৃত হয়।\n\nযেমন: Each, any, every, either, neither, etc.\n\nIt is used to describe a specific member out of a group.\n\nExample:\n\n    Any of you can eat the apple. (আপনাদের মধ্যে যে কেউ আপেলটি খেতে পারেন)\n    Each of the students will get money. (প্রত্যেক ছাত্রই টাকা পাবে)\n    Every man has to go outside for a job. (প্রত্যেকটি মানুষেরই চাকরি করার জন্য বাইরে যেতে হয়)\n"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Verb (ক্রিয়া বা কাজ)",
+        "subCategoryImage": "assets/images/basic/verb.jpg",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Verb কাকে বলে? কত প্রকার ও কি কি?",
+            "firstTopicDetails": "যে শব্দ দ্বারা কোন প্রকার কাজ করা/হওয়া বুঝায় তাকেই Verb বলে। যেমন, go, eat, sleep, buy, sell, walk, run, see, play, write, give etc.\n\nVerb কে ইংরেজি sentence এর হৃদয় বলা হয়। Verb ছাড়া কোন sentence গঠন করা সম্ভব নয়।\n\nThe verb is an important part of speech. Without the verb, no sentence can be formed. It shows a physical or mental action.\n\nExample:\n\n    We play cricket.\n    He writes a letter.\n    He gave me a glass of water.\n\nThere are many types of verbs.\n\nSome are discussed below:\n\n    Finite verb\n    Non-finite verbs\n    Action verbs\n    Auxiliary verbs\n    Linking verbs\n\nAction verbs are two types:\n\n    Transitive verbs\n    Intransitive verbs\n"
+          },
+          {
+            "secondTopicName": "Finite Verb",
+            "secondTopicDetails": "Finite Verb বাক্যের প্রধান verb হতে পারে এবং বাক্য গঠনের ক্ষেত্রে subject এর number এবং person এর সাহায্যে এই verb এর form নির্ধারণ করা হয়।\n\nA Finite verb can come as the main verb in a sentence, and it changes according to the tenses of the action and the number and person of the subject.\n\nExample: Afroza works in a bank."
+          },
+          {
+            "thirdTopicName": "Non-finite Verb",
+            "thirdTopicDetails": "Non-finite verb কখনো main verb হতে পারে না। Non-finite verb বাক্যে সাধারণত adjective অথবা adverb হিসেবে কাজ করে কিন্তু verb হিসেবে নয়।      \n\nNon-finite verbs can’t be main verbs.  \n\nExample: Coming home, I saw the man running away.\n\nThere are three types of non-finite verbs.\n\n    Infinitives: to do, to eat, to drink, to dance\n    Participles: doing, done, eating, eaten, drinking, drunk\n    Gerunds: walking, swimming, running\n"
+          },
+          {
+            "fourthTopicName": "Action verb",
+            "fourthTopicDetails": "Action verb, Subject এর কাজকে বর্ণনা করে। যেকোন কাজকেই action verb হিসেবে বিবেচনা করা যায়।\n\nAction verbs express actions. They complete the sentence and describe the subject’s action.\n\nExample:\n\n    I’ll do my work.\n    She watches TV.\n\nAction verbs are of two types."
+          },
+          {
+            "fifthTopicName": "Transitive Verb",
+            "fifthTopicDetails": "Transitive verb সবসময় একটি direct object দাবি করে। Direct object না আসলে যে বাক্যটি অসুম্পূর্ন মনে হয়, সেই বাক্যে transitive verb ব্যবহৃত হয়।\n\nExample:\n\n    He is watching (এখানে, টেলিভিশন একটি direct object. এটি ছাড়া বাক্য অসুম্পূর্ন।)\n    I saw a (এখানে, Tiger একটি object.)\n"
+          },
+          {
+            "sixthTopicName": "Intransitive Verb",
+            "sixthTopicDetails": "Intransitive verb এর কোন object প্রয়োজন হয় না। তারা নিজে নিজেই বাক্য সম্পূর্ণ করতে পারে।   \n\nThey don’t have a direct object.\n\nExample:\n\n    He reached.\n    He goes to school.\n"
+          },
+          {
+            "seventhTopicName": "Linking verbs",
+            "seventhTopicDetails": "Linking verb সাধারণত ওই সকল verb কে বুঝায় যেগুলো কোন কাজ সম্পন্ন করে না বরং subject এর সাথে বাক্যের বাকি অংশের যোগাযোগ স্থাপন করে। সাধারণত, Be verb গুলো যখন main verb হিসেবে sentence এ ব্যবহৃত হয় তখন সেগুলোকে Linking Verbs বলা যায়।\n\nLinking Verbs can behave both either main verbs or auxiliary verbs. They do not refer to actions, but represent a state of being, need, opinion, desire or senses. For example, be verbs (am, is, are, was, were, have, has, had….) are the example of no-action verbs. Smell, look, taste, sound, etc. are also called no-action verbs.\n\nExample:\n\n    He is a teacher.\n    They have three children.\n"
+          },
+          {
+            "eighthTopicName": "Auxiliary Verb",
+            "eighthTopicDetails": "Auxiliary Verb হচ্ছে সাহায্যকারী verb। তারা present participle এবং past participle কে বাক্যে verb হিসেবে কাজ করতে সাহায্য করে। তাদের নিজস্ব কোন সম্পূর্ণ অর্থ না থাকলেও ব্যাকরণগত দিক থেকে বাক্যের গঠণ নির্মানে তাদের গুরুত্বপূর্ণ ভূমিকা রয়েছে।\n\nAuxiliary verbs are also called helping verbs. It helps another verb to form its mood, voice, tense, etc. They don’t have any meaning on their own, but they are very important to make the grammatical structure of the sentences. They help the main verbs.\n\nThey are two types:"
+          },
+          {
+            "ninthTopicName": "Primary auxiliary",
+            "ninthTopicDetails": "Have, Do, and Be are known as primary auxiliaries.\n\nHave\n\nHave, has, had, having, had not .\n\nExample: He has bought a new car. (এখানে has একটি auxiliary verb)\n\nDo\n\nDo, does, done, to do, did, did not, does not, etc.\n\nExample: He does not keep his work for tomorrow.\n\nBe\n\nAm, is, are, was, were, be, to be, been, was not, were not, etc.\n\nExample: He is watching the tournament."
+          },
+          {
+            "tenthTopicName": "Modal Auxiliary",
+            "tenthTopicDetails": "Modal Auxiliary সাধারণত মুল verb এর অর্থকে প্রভাবিত করে কিন্তু তারাও সাহায্যকারী verb হিসেবেই বাক্যে ব্যবহৃত হয়। \n\nA modal auxiliary modifies the meaning of the main verb in some way. Shall, should, can, could, may, might, ought, ought to, will, would, must, etc. are known as modal auxiliary verbs.\n\nExample:\n\n    He may come home tomorrow.\n    You should not run in the sun.\n    You can take rest now.\n"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Adverb (ক্রিয়া-বিশেষণ)",
+        "subCategoryImage": "assets/images/basic/adverb.jpg",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Adverb কাকে বলে? কত প্রকার ও কি কি?",
+            "firstTopicDetails": "Adverb একটি part of speech যা একটি verb, adjective অথবা অন্য একটি adverb কে বর্ণনা করে। এটি কখন? /কোথায়? / কিভাবে? / কি উপায়ে? / এবং কি পরিমাণে? এই প্রশ্নগুলোর উত্তর দেয়।\n\nAn adverb is a word that describes a verb, adjective or another adverb. Adverbs mainly modify manner, place, time, frequency, etc. It answers questions like when?/where?/how?/ in what way?/ and to what extent?\n\nExample:\n\n    The girl speaks fluently in English.\n\nএখানে “fluently” বর্ণনা করছে “the girl” কিভাবে English এ কথা বলছে । তাই এটি একটি  adverb.\n\n    The tea is very hot.\n\nএখানে “very “ বর্ণনা করছে চা কতটা গরম । তাই এটি একটি  adverb.\n\n    The boy is running so fast.\n\nএখানে “so” বর্ণনা করছে ছেলেটি কত দ্রুত দৌড়াচ্ছে এবং “fast” বর্ণনা করছে ছেলেটি কিভাবে দৌড়াচ্ছে । উভয়েই adverb, “so” modify করছে আরেকটি adverb “fast” কে এবং “fast” modify করছে একটি verb “run” কে ।"
+          },
+          {
+            "secondTopicName": "Classification/ Types of Adverbs",
+            "secondTopicDetails": "Adverbs can be classified in different ways. These are discussed below.\n\nAdverb কে বিভিন্নভাবে বিভক্ত করা যায় । এগুলো নিচে বর্ণনা করা হলো ।\n\n    Adverb of time\n    Adverb of place\n    Adverb of manner\n    Adverb of frequency\n    Affirmative or Negative Adverb\n"
+          },
+          {
+            "thirdTopicName": "Adverb of time",
+            "thirdTopicDetails": "যে adverb কোনকিছু কখন/কোন সময়ে ঘটেছে তা বর্ণনা/উল্লেখ করে তাকে Adverb of time বলে । এটা sentence এর শুরুতে অথবা শেষে ব্যবহৃত হয় ।\n\nAn adverb which tells us when something is done is called Adverb of time. It can be used at the beginning or the end of a sentence.\n\nAdverbs of time: Yesterday, today, afterward, always, immediately, last month, now, soon, etc are common.\n\nExamples:\n\n    I will go to the varsity today.\n    Always speak the truth.\n    I should go there immediately.\n"
+          },
+          {
+            "fourthTopicName": "Adverb of place",
+            "fourthTopicDetails": "যে adverb কোনকিছু কোথায় ঘটেছে তা উল্লেখ করে তাকে Adverb of place বলে । এটা verb এর পরে, direct object হিসাবে অথবা sentence এর শুরুতে ব্যবহৃত হয় ।\n\nAn adverb which tells us where something is done or happened is called Adverb of place.  It can be used after the verb as a direct object or at the beginning of a sentence.\n\nAdverbs of place: Here, above, below, under, upstairs, there, over there, etc.\n\nExamples:\n\n    I will go upstairs to see her.\n    I like to have my lunch here.\n    They are sitting under the tree.\n"
+          },
+          {
+            "fifthTopicName": "Adverb of manner",
+            "fifthTopicDetails": "যে adverb কোনোকিছু কিভাবে হয়/হচ্ছে/হবে তা ব্যখ্যা/উল্লেখ করে তাকে Adverb of manner বলে ।\n\nAn adverb which tells us how something is done is called Adverb of manner.\n\nMost of these adverbs have “ly” at its end such as, quickly, slowly, happily, badly, etc. Fast, hard, well, etc. are also adverbs of manner.\n\nExamples:\n\n    Inflation badly affected our economy.\n    The man has to work hard to get a promotion.\n    I tried to sing well in the program.\n"
+          },
+          {
+            "sixthTopicName": "Adverb of degree",
+            "sixthTopicDetails": "যে adverb কোনোকিছু কি পরিমাণে/কতটুকু ঘটেছে তা বোঝায় তাকে Adverb of degree বলে ।\n\nAn adverb which tells us the level or the extent that something is done is called Adverb of degree.\n\nAdverbs of degree: So, very, quite, really, too, almost, much, nearly, etc.\n\nExamples:\n\n    The work is almost done.\n    The book is really interesting.\n    I am very happy to hear this good news.\n"
+          },
+          {
+            "seventhTopicName": "Adverb of frequency",
+            "seventhTopicDetails": "যে adverb কোনকিছু কতবার বা কত সময় পরপর হয় তা বোঝায় তাকে Adverb of frequency বলে ।\n\nAn adverb which tells us how often something is done is called Adverb of frequency.\n\nAdverbs of frequency: Weekly, twice, sometimes, never, always, generally, usually, nearly, again, ever, hardly ever, etc.\n\nExamples:\n\n    I have never been to that place.\n    Always wear a smile on your face.\n    Sometimes I feel nostalgic while listening to an old song.\n"
+          },
+          {
+            "eighthTopicName": "Affirmative or Negative Adverb",
+            "eighthTopicDetails": "এটা কোনকিছু সত্য কি মিথ্যা  তা বলে অথবা কোনোকিছুর উপর গুরুত্ব আরোপ করে।\n\nIt tells whether a thing is true or false or it emphasizes a matter. Truly, Especially, never, etc. are examples of affirmative or negative adverbs.\n\nExamples:\n\n    Truly, I want her to be here.\n    She especially mentioned her name.\n    Never tell a lie.\n"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Preposition (পদান্বয়ী অব্যয়)",
+        "subCategoryImage": "assets/images/basic/preposition.jpg",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Preposition কাকে বলে? কত প্রকার ও কি কি?",
+            "firstTopicDetails": "যে সকল শব্দ সাধারণত noun বা pronoun এর সামনে বসে noun বা pronoun এর সাথে sentence এর অন্যানো শব্দের সম্পর্ক প্রকাশ করে তাদেরকে preposition বলা হয়।\n\nA preposition is a part of speech that indicates location, direction, time, etc. usually used in front of nouns or pronouns and it shows the relationship between the noun or pronoun and other words of the sentence. On, in, under, after, beside, to, towards, with, etc. are prepositions.\n\nExample:\n\n    The book is on the table.\n\n(Here “on” is indicating the location of the book, it is used in front of a noun “the table,” and it shows the relationship between the mentioned words. So it’s a preposition.)\n\n    We sat under the tree.\n\n(Here “under” is indicating the location of “we”, it is used in front of a noun “the tree,” and it shows the relationship between the mentioned words. So it’s a preposition.)\n\n    The car was coming towards\n\n(Here “towards” is similarly a preposition because it shows the location of ‘the car”, it is used in front of a pronoun “me”, and it indicates the relationship between the mentioned words.)"
+          },
+          {
+            "secondTopicName": "Classification/Types of Prepositions",
+            "secondTopicDetails": "Prepositions can be classified in different ways. These are discussed below.\n\nPreposition কে বিভিন্নভাবে বিভক্ত করা যায় । এগুলো নিচে বর্ণনা করা হলো ।\n\n    Simple Preposition\n    Compound Preposition\n    Phrase Preposition\n    Participle Preposition\n    Double Preposition\n    Preposition of time\n    Preposition of place\n    Preposition of direction\n    Preposition for an agent\n    Preposition used for Tools, Mechanism or Gadget\n"
+          },
+          {
+            "thirdTopicName": "Simple Preposition",
+            "thirdTopicDetails": "সাধারণত sentence এ ব্যবহৃত একক preposition গুলোকে simple preposition বলে ।\n\nThe preposition, used in a simple sentence is called simple preposition.\n\nOn, in, to, at, from, with, of, off, over, under, etc. are some examples of simple prepositions.\n\n  Examples:\n\n    She is living in this room.\n    I am going to the varsity.\n    He was looking at me.\n"
+          },
+          {
+            "fourthTopicName": "Compound Preposition",
+            "fourthTopicDetails": "যে preposition গুলো দুটো noun, pronoun অথবা phrase কে যুক্ত করতে ব্যবহৃত হয় তাদেরকে compound preposition বলে।  \n\nThe preposition used to join two nouns, pronouns or phrases is called compound preposition.\n\nBetween, before, around, about, along, above, etc. are some examples of compound prepositions.\n\nExamples:\n\n    I will complete the work before he comes.\n    She was asking about this matter.\n    The river is running across the town.\n"
+          },
+          {
+            "fifthTopicName": "Phrase Preposition",
+            "fifthTopicDetails": "যে preposition গুলো দলবদ্ধ শব্দ  এবং sentence এর  বিভিন্ন অংশের মধ্যে সম্পর্ক বোঝায় তাদেরকে phrase preposition বলে ।\n\nThe prepositions, which are a group of words, showing the relationship among various parts of the sentence, are called phrase prepositions.\n\nIn spite of, in front of, in order to, due to, on account of, for the sake of, etc. are some examples of phrase prepositions.\n\nExamples:\n\n    She came here in order to meet me.\n    We were standing in front of the college.\n    She could not come here due to her illness.\n    I did not go to watch the movie assuming that it would be boring.\n"
+          },
+          {
+            "sixthTopicName": "Double Preposition",
+            "sixthTopicDetails": "দুটো preposition যুক্ত হয়ে একটি নতুন preposition গঠণ করলে তাকে double preposition বলে ।\n\nWhen two prepositions come together to create a new word, e.g., because of, from behind, within, out of, outside of, etc. are called Double preposition.\n\nExamples:\n\n    He could not come to the meeting because of his illness.\n    I have to do this work within today.\n    I have to answer three questions out of all.\n"
+          },
+          {
+            "seventhTopicName": "Preposition of time",
+            "seventhTopicDetails": "যে preposition কোনো কাজের সময় বা একটি sentence এর noun গুলোর মধ্যে সময়ের সম্পর্ক  নির্দেশ করে  তাকে preposition of time বলে ।\n\nThe preposition indicating time in a speech is called preposition of time.\n\nExamples:  \n\n    I will try to come at 6:30 pm.\n    This program will be held in January.\n    Try to come on Monday.\n"
+          },
+          {
+            "eighthTopicName": "Preposition of place",
+            "eighthTopicDetails": "যে preposition গুলো কোনোকিছুর অবস্থান নির্দেশ করে তাকে preposition of place বলে।\n\nThe preposition, which is used to indicate where something is located, is called preposition of place. Such as behind, under, on, in, at, between, over, etc.\n\nExamples:\n\n    The boy was standing behind the tree.\n    She lives in Dhanmondi in Dhaka.\n"
+          },
+          {
+            "ninthTopicName": "Preposition of direction",
+            "ninthTopicDetails": "যে preposition কোনোকিছুর বা কারো দিকে নির্দেশ করে  তাকে preposition of direction বলে ।\n\nThe preposition used to indicate the direction of something or someone is called preposition of direction. Such as in, on, under, over, left, right, etc.\n\nExamples:\n\n    The school is situated on the right side of the town.\n    The jeep is now going over the bridge.\n    The bird is sitting on the roof.\n"
+          },
+          {
+            "tenthTopicName": "Preposition for an agent",
+            "tenthTopicDetails": "যে preposition কোনো কাজ ও কাজ সম্পাদনকারীর মধ্যে সম্পর্ক নির্দেশ করে তাকে preposition for agent বলে ।\n\nThe preposition used to indicate a relation on the basis of a cause between a work and its doer is called preposition for an agent.\n\nExamples:\n\n    I like to go there with you.\n    She likes to read the books written by Tagore.\n"
+          },
+          {
+            "eleventhTopicName": "Preposition used for Tools, Mechanism or Gadget",
+            "eleventhTopicDetails": "এই preposition গুলো বিভিন্ন noun কে  ( যন্ত্র, বাদ্যযন্ত্র , মেশিন প্রভৃতি ) sentence এর অন্যান্য শব্দের সাথে যুক্ত করে ।\n\nThe prepositions which are used in case of tools, mechanism or gadget are called preposition used for tools, mechanism or gadget.\n\nExamples:\n\n    I opened the bottle with the help of an opener.\n    He likes to go long drives by his car.\n    She came here on foot.\n"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Conjunction",
+        "subCategoryImage": "assets/images/basic/conjunction.jpg",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Conjunction কাকে বলে? কত প্রকার ও কি কি?",
+            "firstTopicDetails": "Conjunction একটি part of speech যা sentence এ বিভিন্ন words, phrases, বা clauses যুক্ত করতে ব্যবহৃত হয়।\n\nThe conjunction is a part of speech used to join words, phrases or clauses in a certain sentence. Such as and, or, otherwise, but, unless, since, although, etc.\n\nExample:\n\n    Listening to music and singing songs are my hobbies.\n    The postman is poor, but he never shirks his duty.\n    You must study regularly or/otherwise, you will not pass the exam.\n"
+          },
+          {
+            "secondTopicName": "Classification/Types of Conjunctions",
+            "secondTopicDetails": "There are mainly three types of conjunctions. Conjunction প্রধানতঃ তিন প্রকারের হয় ।\n\n    Coordinating conjunction\n    Subordinating conjunction\n    Correlative conjunction\n\nThese are discussed below."
+          },
+          {
+            "thirdTopicName": "Coordinating conjunction",
+            "thirdTopicDetails": "যে conjunction একইরকম ব্যাকরণগত কাঠামো সম্পন্ন words, phrases or clauses যুক্ত করে তাকে coordinating conjunction বলে । একে coordinator ও বলা হয় ।\n\nThe conjunction which joins words, phrases or clauses having the same grammatical structure is called coordinating conjunction. It is also called a coordinator, such as and, or, but, nor, for, yet, so, etc.\n\nExamples:\n\n    I will buy a pen and a book. (Joining two words)\n    You can find him in the library or in the classroom. (Joining two phrases)\n    She is poor, yet she is happy. (Joining two clauses)\n"
+          },
+          {
+            "fourthTopicName": "Subordinating Conjunction",
+            "fourthTopicDetails": "যে conjunction একটি subordinate/dependent clause কে একটি main/independent clause এর সাথে যুক্ত করে তাকে subordinating conjunction বলে ।\n\nThe conjunction which joins a subordinate/dependent clause with a main/independent clause is called subordinating conjunction. It is also called a subordinator, such as since, once, till, when, where, although, after, no matter how, while, provided that, etc.\n\nExamples:\n\n    We went to the garden where we saw different kinds of roses.\n    Although she was ill, she came to the class.\n    You will get a chance to play on the team provided that you practice hard.\n"
+          },
+          {
+            "fifthTopicName": "Correlative Conjunction",
+            "fifthTopicDetails": "জোড়া শব্দ যেগুলো বিপরীতার্থক বা পরিপূরক সম্পর্কযুক্ত words, phrases বা clauses কে যুক্ত করে তাদেরকে correlative conjunction বলে।\n\nPaired words joining words, phrases or clauses having a reciprocal or complementary relationship are called correlative conjunctions.\n\nWhether…or, not only…but also, either…or, neither…nor, both…and, are some common correlative conjunctions.\n\nExamples:\n\n    I will travel either by bus or by air.\n    Neither you nor I will go there.\n    Both red and green are my favorite colors.\n"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Interjections",
+        "subCategoryImage": "assets/images/basic/interjections.jpg",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Interjection কাকে বলে? কত প্রকার ও কি কি?",
+            "firstTopicDetails": "Interjection একটি part of speech যা আকস্মিক অনুভূতি যেমন আনন্দ, বিস্ময়, দুঃখ, প্রভৃতি বোঝাতে ব্যবহৃত হয় এবং এটি ব্যাকরণগতভাবে sentence এর বাকি অংশের সাথে সম্পর্কযুক্ত নয়।\n\nAn interjection is a part of a sentence that expresses emotion such as joy, surprise, sadness, etc. and has no grammatical relation to other parts of the sentence. It is frequently used in informal language than in formal speech or writing. A note of exclamation sign is used after an interjection.\n\nWow!, Hey!, Hurray!, Alas!, Yippee!, etc. are some commonly used interjections.\n\nExample:\n\n    Wow! The movie was really (Showing surprise)\n    Hurray! Bangladesh has won the match. (Showing joy)\n    Alas! Her father died yesterday. (Showing sadness)\n"
+          },
+          {
+            "secondTopicName": "Classification/ Types of Interjections",
+            "secondTopicDetails": "There are mainly six types of interjections. These are discussed below.\n\n    Interjections for Greeting\n    Interjections for Joy\n    Interjections for Approval\n    Interjections for Surprise\n    Interjections for Grief/Pain\n    Interjections for Attention\n"
+          },
+          {
+            "thirdTopicName": "Interjections for Greeting",
+            "thirdTopicDetails": "যে interjection কাউকে সম্বোধন করে ঐ ব্যক্তির প্রতি সৌহার্দের অনুভূতি বোঝাতে ব্যবহৃত হয় তাকে interjection for greeting বলে ।\n\nThe interjections used to greet someone showing the warmth or emotion towards the other person are called interjections for greeting.\n\nHi!, Hello!, Hey!, etc. are some interjections for greeting.\n\nExamples:\n\n    Hi! How are you doing?\n    Hello! I am Sohana.\n    Hey! I am just kidding.\n"
+          },
+          {
+            "fourthTopicName": "Interjections for Joy",
+            "fourthTopicDetails": "যে interjection হঠাৎ ঘটে যাওয়া কোনো আনন্দের ঘটনার কারণে আনন্দ বা সুখ বোঝাতে ব্যবহৃত হয় তাকে interjection for joy বলে ।\n\nThe interjections used to express happiness or joy on the occurrence of a sudden happy event are called interjections for joy.\n\nHurray!, Yippee!, Wow!, etc. are some interjections for joy.\n\nExamples:\n\n    Hurray! Bangladesh has won the match.\n    Wow! The movie was really awesome.\n    Yippee! We are going on a vacation.\n"
+          },
+          {
+            "fifthTopicName": "Interjections for Approval",
+            "fifthTopicDetails": "যে interjection বক্তার দ্বারা কোনোকিছু ঘটে যাওয়ার পক্ষে তীব্র সমর্থন বোঝায় তাকে interjections for approval বলে ।\n\nThe interjections used by the speaker expressing a strong sense of approval and agreement on something that happened are called interjections for approval.\n\nWell done!, Bravo!, Brilliant!, Splendid!, etc. are some interjections for approval.\n\nExamples:\n\n    Bravo! Shakib has taken a wicket.\n    Well done! You have stood first.\n    Brilliant! You have done a terrific job.\n"
+          },
+          {
+            "sixthTopicName": "Interjections for Surprise",
+            "sixthTopicDetails": "যে interjection বক্তার দ্বারা কোনোকিছু ঘটে যাওয়ার জন্য তীব্র বিস্ময় বোঝায় তাকে interjection for surprise বলে।\n\nThe interjections used by the speaker expressing a strong sense of surprise on the occurrence of something are called interjections for surprise.\n\nWhat!, Eh!, Ah!, Oh!, Hey!, etc. are some interjections for surprises.\n\nExamples:\n\n    What! You have done this.\n    Hey! What are you doing?\n"
+          },
+          {
+            "seventhTopicName": "Interjections for Grief/Pain",
+            "seventhTopicDetails": "যে interjection বক্তার দ্বারা কোনো দুঃখের বা বেদনাদায়ক ঘটনা ঘটে যাওয়ার জন্য তীব্র দুঃখের বা বেদনার অনুভূতি বোঝায় তাকে interjection for grief/pain বলে ।\n\nThe interjections used by the speaker expressing a strong sense of grief/ pain on the occurrence of anything unfortunate happened are called interjections for grief/pain.\n\nAlas!, Oh!, Ouch!, Ah!, etc. are some interjections for grief/pain.\n\nExamples:\n\n    Ah! We have lost the game.\n    Alas! He died yesterday.\n    Ouch! I hurt my knee.\n"
+          },
+          {
+            "eighthTopicName": "Interjections for Attention",
+            "eighthTopicDetails": "যে interjection বক্তার দ্বারা কোনোকিছুর প্রতি শ্রোতাদের দৃষ্টি আকর্ষণ করা বোঝায় তাকে interjection for attention  বলে ।\n\nThe interjections used by the speaker to draw the attention of the listeners are called interjections for attention.\n\nListen!, Look!, Behold!, Hush!, etc. are some interjections for attention.\n\nExamples:\n\n    Listen! I am warning you for the last time.\n    Look! The singer is coming.\n    Hush! Someone is there.\n"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Present Tense (বর্তমান কাল)",
+        "subCategoryImage": "assets/images/basic/present-tense.jpg",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Tense (কাল)",
+            "firstTopicDetails": "কোন কাজ সম্পাদনের নির্দিষ্ট অথবা অনির্দিষ্ট সময়/সময়কালকে Tense বলা হয়।\n\nইংরেজি sentence গঠনের জন্য tense এর গুরুত্ব অসীম। ইংরেজিতে বিভিন্ন সময়কাল নির্দেশ করার জন্যে tense এর বিভিন্ন form ব্যবহার করা হয়। Tense এর মোট ১২ টি form রয়েছে। সকল ইংরেজি বাক্য এই ১২ টি form এর যেকোন একটি দিয়েই গঠন করা হয়।  \n\nTense, in English grammar, refers to the time of an action or event. It tells when the work is done. It identifies whether the work is done in the present, the past or the future."
+          },
+          {
+            "secondTopicName": "There are three types of Tenses",
+            "secondTopicDetails": "\n    Present Tense (বর্তমান কাল)\n    Past Tense (অতীত কাল)\n    Future Tense (ভবিষ্যৎ কাল)\n\nExample:\n\n    I eat Rice/He eats rice. (Present Tense)\n    I ate rice/He ate rice. (Past Tense)\n    I shall eat rice/He will eat rice. (Future Tense)\n"
+          },
+          {
+            "thirdTopicName": "Present Tense কাকে বলে?  কত প্রকার ও কি কি?  \nPresent Tense (বর্তমান কাল)",
+            "thirdTopicDetails": "Present Tense এর চারটি form রয়েছে।\n\n    Present Indefinite Tense\n    Present Continuous Tense\n    Present Perfect Tense\n    Present Perfect Continuous Tense\n"
+          },
+          {
+            "fourthTopicName": "Present Indefinite Tense",
+            "fourthTopicDetails": "বর্তমান কালে কোন কাজ করা হয়ে থাকে, অথবা অভ্যাসগতভাবে করা হয়, অথবা চির সত্য কোন কাজ বোঝালে তাকে Present Indefinite Tense ব্যবহার করা হয়।\n\nIt describes an action that is true, regular or normal. It uses the main verb or base form of the verb or the root verb.\n\nবাংলায় চেনার উপায়: Verb এর শেষে অ, আ, এ, ই, এন, ও,এস,আয়,আন থাকবে।\n\n Example:\n\n    I go to School - আমি স্কুলে যাই।\n    He goes to school - সে স্কুলে যায়।\n    They play cricket - তারা ক্রিকেট খেলে।\n\nStructure of the sentence: Base/root form of the verb is used as the main verb.\n\nPositive Sentence:\n\nSubject + main verb + complement\n\nNote: In a sentence, if the subject is a third person singular number (he, she, it, or a singular noun), then ‘s’, ‘es’, ‘ies’ is added with the main verb in the sentence. But, if the subject is plural, there will be no addition of ‘s’, ‘es’, or ‘ies’.\n\nExample:\n\n    I go to the market. (using the root form ‘go’)\n    He goes to the market. (root form of the verb is ‘go’ but ‘he’ is a third person singular number that’s why an extra ‘es’ is added with the verb)\n    Hasina wants a cup of tea. (Hasina is third person singular number)\n    The boys play cricket. (‘the boys’ = a third person plural number, that’s why there is no ‘s’ with the verb)\n\nNegative Sentence:\n\nSubject + Do not/Does not + main verb + object\n\nNote: If the subject is ‘he/she/it or a singular noun’ then ‘Does not’ will be used to make it negative. If the subject of a sentence is ‘I/you/we/they’ or a plural noun, then ‘Do not’ will be used to make it negative.\n\nExample:\n\n    Positive: I eat rice.\n    Negative: I do not eat rice.\n    Positive: He goes to School.\n    Negative: He does not go to School.\n    Positive: He walks in the evening.\n    Negative: He does not walk in the evening.\n    Positive: They like to dance.\n    Negative: They do not like to dance.\n\nQuestion Sentence:\n\nDo/ Does + Subject + Main verb + Object + Note of interrogation (?)\n\nNote: If the sentence starts with the subject ‘he/she/it or a singular noun’ then ‘Does’ is used to make it Interrogative. If the sentence starts with the subject ‘I/we/you/they or a plural noun’ then ‘Do’ is used to make it Interrogative.\n\nExample:\n\n    Positive: He sings a song.\n    Interrogative: Does he sing a song?\n    Positive: She likes to talk to you.\n    Interrogative: Does she like to talk to you?\n    Positive: We try to do the assignment.\n    Interrogative: Do we try to do the assignment?\n    Positive: They love you.\n    Interrogative: Do they love you?\n\nUsing ‘Be verb’ (am/is/are):\n\nSubject + be verb (am/is/are) + object\n\nNote: ‘am’ is used with the subject ‘I’. ‘is’ is used with the subject ‘he/she/it or the singular form of nouns. ‘are’ is used with the ‘we/you/they or the plural form of nouns.\n\nExample:\n\n    I am a musician.\n    It is my pen\n    You are a fraud.\n\nNegative sentence:\n\nSubject + am not/is not/are not + object\n\nExample:\n\n    Positive: I am a good boy.\n    Negative: I am not a good boy.\n    Positive: It is her book.\n    Negative: It is not her book.\n    Positive: You are my friend.\n    Negative: You are not my friend.\n\nInterrogative:\n\nAm/is/are + subject + object + Note of Interrogation (?)\n\nExample:\n\n    Positive: I am an intelligent boy.\n    Interrogative: Am I an intelligent boy?\n    Positive: He is angry.\n    Interrogative: Is he angry?\n    Positive: They are my friends.\n    Interrogative: Are they my friends?\n"
+          },
+          {
+            "fifthTopicName": "Present Continuous Tense",
+            "fifthTopicDetails": "বর্তমানকালে বা অদূর/নিকট ভবিষ্যতে কোন কাজ চলছে/চলবে বোঝালে Present Continuous Tense ব্যবহার করতে হয়।\n\nThe present continuous tense designates an action that is being continued or going to be continued in the near future.\n\nবাংলায় চেনার উপায়: Verb এর শেষে তেছ, তেছি , তেছেন, তেছে, চ্ছ, চ্ছি, চ্ছে, চ্ছেন, ছেন, ছি  ইত্যাদি থাকে।\n\nExample:\n\n    I am going to school - আমি স্কুলে যাচ্ছি।\n    He is going to market - সে বাজারে যাচ্ছে।\n    They are playing football - তারা ফুটবল খেলছে।\n    The bus is leaving at 4.00 pm – বাসটি চারটায় ছাড়বে। (নিকট ভবিষ্যত)\n\nStructure of the sentence: Verb এর present form এর সাথে ing যোগ করতে হয়।\n\nPositive sentence:\n\nSubject + am/is/are + main verb + ing + object\n\nExample:\n\n    I am eating rice.\n    He is running to and fro.\n    They are going to school.\n    They are going to attend a party tonight. (নিকট ভবিষ্যত)\n\nNote: ‘I’ এর পর am বসে, He/she/it এর পর is বসে। এবং subjectযদি third person singular number হয় তাহলেও subject এর পর is বসে। We/you/they এবং plural subject এর পর are বসে।\n\nNegative sentence:\n\nSubject + am/is/are + not + Main verb + ing + object\n\nExample:\n\n    He is not drinking milk.\n    I’m not going to open a bank account.\n    They are not going to play football.\n\nঅর্থাৎ, am/is/are এর পর একটি not যোগ করে দিলেই negative sentence হয়ে যায়।\n\nInterrogative sentence:\n\nAm/is/are + subject + main verb + ing + object + ?\n\nExample:\n\n    Am I going to Chittagong?\n    Is he drinking water?\n    Are they playing badminton?\n"
+          },
+          {
+            "sixthTopicName": "Present Perfect Tense",
+            "sixthTopicDetails": "কোন কাজ শেষ হয়ে গেছে অথচ তার ফল এখনও বিদ্যমান আছে, এরকম বোঝালে present perfect tense ব্যবহৃত হয়। \n\nIt describes the work which has been done, but the effect exists till now.\n\nবাংলায় চেনার উপায়: Verb এর শেষে য়াছে, এছে, য়াছ, য়াছি, এছি, য়াছেন, য়াছে, য়েছ, ইয়াছি, ইয়াছ, ইয়াছে, ইয়েছ, ইয়াছেন ইত্যাদি বসে। এছাড়া করি নাই, করিনি, খাই নাই, খাইনি, ইত্যাদি বোঝালে Present Perfect Tense হয়।\n\nExample:\n\n    He has done the work - সে কাজটি করিয়াছে / করেছে।\n    I have gone to the market - আমি বাজারে গিয়াছি/গিয়েছি।\n    They have eaten mangoes – তারা আমগুলো খেয়েছে।\n    I have not eaten banana - আমি কলা খাইনি।\n\nStructure of the sentence: The past participle form of the verb is used after have/has.\n\nPositive sentence:\n\nSubject + have/has + past participle form of verb + object\n\nExample:\n\n    He has done the work.\n    I have eaten rice.\n    They have worked hard.\n\nNote: Subject যদি He/she/it এবং third person singular number হয় তাহলে has বসবে। Subject যদি I/we/they/you এবং plural subject এর সাথে have বসবে।\n\nNegative sentence:\n\nSubject + have/has + not + past participle form of verb + object\n\nExample:\n\n    He has not eaten rice.\n    They have not come to our house.\n    I have not gone to school.\n\nInterrogative sentence:\n\nHave/has + subject + past participle form of verb + object + ?\n\nExample:\n\n    Has he done the homework?\n    Have they gone to school?\n    Have you learned speaking English?\n"
+          },
+          {
+            "seventhTopicName": "Present Perfect Continuous Tense",
+            "seventhTopicDetails": "কোন কাজ পূর্বে শুরু হয়ে এখনও চলছে বোঝালে Present perfect continuous tense ব্যবহৃত হয়।\n\nThe work started in the past and it is still running is called Present perfect continuous tense. \n\nবাংলায় চেনার উপায়: বাংলায় ক্রিয়ার শেষে তেছ, তেছি,তেছে, তেছেন, চ্ছ, চ্ছি, চ্ছে, চ্ছেন, ছ্, ছি্, ছে্, ছে্ন, ইত্যাদি উল্লেখ থাকে এবং সাথে সময়ের উল্লেখ থাকে।\n\nExample:\n\n    I have been walking for two hours - আমি দুই ঘন্টা যাবৎ হাটছি।\n    He has been working in this office for five years - সে এই অফিসে পাঁচ বছর যাবৎ কাজ করছে।\n    They have been suffering from fever since Tuesday - তারা মঙ্গলবার হইতে জ্বরে ভুগছে।\n\nNote: Subject third person singular number or he/she/ it হলে has been বসে। I/we/you/they এবং অন্যসব subject এর ক্ষেত্রে have been বসে। \n\nNote:\n\nFor সাধারণত একটি কাজের নির্দিষ্ট একটা সময়ের পরিমাণ বুঝাতে ব্যবহার করা হয়।\n\nFor is used to talk about a period of time: three hours, three months, twelve years, etc. For can be used with all tenses.\n\nSince সাধারণত একটা নির্দিষ্ট সময় থেকে শুরু হয়ে আসা কাজের ক্ষেত্রে ব্যবহার করা হয়।\n\nSince is used to talk about a point in past time: Sunday, 6th January, Morning, etc. Since can be used only in perfect tenses.\n\nStructure of the sentence:\n\nPositive sentence:\n\nSubject + have been/has been + main verb + ing + since/from/for + object.\n\nExample:\n\n    He has been reading this newspaper for two hours.\n    They have been walking since 7 am.\n    You have been talking about the Internet for three hours.\n\nNegative sentence:\n\nSubject + have not/has not + been + main verb + ing + since/from/for + object.\n\nExample:\n\n    I have not been walking for two hours.\n    It has not been raining.\n\nInterrogative sentence:\n\nHave/has + subject + been + main verb + ing + since/for (if needed) + object + ?\n\nExample:\n\n    Has he been watching the movie?\n    Have they been waiting for two hours?\n    Has it been raining since morning?\n"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Past Tense (অতীত কাল)",
+        "subCategoryImage": "",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Past Tense কাকে বলে? কত প্রকার ও কি কি?",
+            "firstTopicDetails": "অতীত কালের কোন কাজ বোঝাতে past tense ব্যবহৃত হয়।\n\nThe past tense is used to express an action that occurred in the past.\n\nPast tense is classified into four categories.\n\n    Past Indefinite Tense\n    Past Continuous Tense\n    Past Perfect Tense\n    Past Perfect Continuous Tense\n"
+          },
+          {
+            "secondTopicName": "Past Indefinite Tense",
+            "secondTopicDetails": "অতীত কালের কোন কাজ এবং অতীতের কোন অভ্যাস কে বোঝাতে past tense ব্যবহৃত হয়।\n\nThe past indefinite Tense describes an action completed in the past or a habit of past.\n\nবাংলায় চেনার উপায়: বাংলায় ক্রিয়ার শেষে ল, লাম, ত, তাম, তে, তেন,ছিল, অথবা, ছিলাম থাকলে সাধারণত past tense হয়ে থাকে।    \n\nExample:\n\n    I went to the market - আমি বাজারে গিয়েছিলাম।\n    He ate rice - সে ভাত খেলো।\n    They played cricket - তারা ক্রিকেট খেলেছিল।\n\nStructure of the sentence: The past form of the verb or the second form of the verb is used as the main verb.\n\nPositive sentence:\n\nSubject + past form of verb + object.\n\nExample:\n\n    He bought a book\n    They went to the shopping mall.\n    I revised the lesson.\n\nNegative sentence:\n\nSubject + did + not + present form of the verb + object.\n\nExample:\n\n    He did not eat rice.\n    They did not laugh at the poor.\n    I did not go to the market.\n\nInterrogative sentence:\n\nDid + subject + present form of the verb + object + note of interrogation (?)\n\nExample:\n\n    Did you eat rice?\n    Did you come home?\n    Did they finish the work?\n\nPast indefinite tense with was/were:\n\nPositive sentence:\n\nSubject + was/were + object.\n\nExample:\n\n    I was at school.\n    He did the work.\n    You were in Thailand.\n\nNote: I/he/she/it এবং subject যদি singular number হয় তাহলে was বসে, you/they/we এবং subject যদি plural number হয় তাহলে were বসে।\n\nNegative sentence:\n\nSubject + was not/were not + object.\n\nExample:\n\n    He was not happy with me.\n    You were not in Chittagong.\n    She was not sick.\n\nInterrogative sentence:\n\nWas/were + subject + object + note of interrogation (?)\n\nExample:\n\n    Were you in Africa?\n    Was she sick?\n    Were you my friend?\n"
+          },
+          {
+            "thirdTopicName": "Past Continuous Tense",
+            "thirdTopicDetails": "Present Tense এর চারটি form রয়েছে।\n\n    Present Indefinite Tense\n    Present Continuous Tense\n    Present Perfect Tense\n    Present Perfect Continuous Tense\n"
+          },
+          {
+            "fourthTopicName": "Present Indefinite Tense",
+            "fourthTopicDetails": "বর্তমান কালে কোন কাজ করা হয়ে থাকে, অথবা অভ্যাসগতভাবে করা হয়, অথবা চির সত্য কোন কাজ বোঝালে তাকে Present Indefinite Tense ব্যবহার করা হয়।\n\nIt describes an action that is true, regular or normal. It uses the main verb or base form of the verb or the root verb.\n\nবাংলায় চেনার উপায়: Verb এর শেষে অ, আ, এ, ই, এন, ও,এস,আয়,আন থাকবে।\n\n Example:\n\n    I go to School - আমি স্কুলে যাই।\n    He goes to school - সে স্কুলে যায়।\n    They play cricket - তারা ক্রিকেট খেলে।\n\nStructure of the sentence: Base/root form of the verb is used as the main verb.\n\nPositive Sentence:\n\nSubject + main verb + complement\n\nNote: In a sentence, if the subject is a third person singular number (he, she, it, or a singular noun), then ‘s’, ‘es’, ‘ies’ is added with the main verb in the sentence. But, if the subject is plural, there will be no addition of ‘s’, ‘es’, or ‘ies’.\n\nExample:\n\n    I go to the market. (using the root form ‘go’)\n    He goes to the market. (root form of the verb is ‘go’ but ‘he’ is a third person singular number that’s why an extra ‘es’ is added with the verb)\n    Hasina wants a cup of tea. (Hasina is third person singular number)\n    The boys play cricket. (‘the boys’ = a third person plural number, that’s why there is no ‘s’ with the verb)\n\nNegative Sentence:\n\nSubject + Do not/Does not + main verb + object\n\nNote: If the subject is ‘he/she/it or a singular noun’ then ‘Does not’ will be used to make it negative. If the subject of a sentence is ‘I/you/we/they’ or a plural noun, then ‘Do not’ will be used to make it negative.\n\nExample:\n\n    Positive: I eat rice.\n    Negative: I do not eat rice.\n    Positive: He goes to School.\n    Negative: He does not go to School.\n    Positive: He walks in the evening.\n    Negative: He does not walk in the evening.\n    Positive: They like to dance.\n    Negative: They do not like to dance.\n\nQuestion Sentence:\n\nDo/ Does + Subject + Main verb + Object + Note of interrogation (?)\n\nNote: If the sentence starts with the subject ‘he/she/it or a singular noun’ then ‘Does’ is used to make it Interrogative. If the sentence starts with the subject ‘I/we/you/they or a plural noun’ then ‘Do’ is used to make it Interrogative.\n\nExample:\n\n    Positive: He sings a song.\n    Interrogative: Does he sing a song?\n    Positive: She likes to talk to you.\n    Interrogative: Does she like to talk to you?\n    Positive: We try to do the assignment.\n    Interrogative: Do we try to do the assignment?\n    Positive: They love you.\n    Interrogative: Do they love you?\n\nUsing ‘Be verb’ (am/is/are):\n\nSubject + be verb (am/is/are) + object\n\nNote: ‘am’ is used with the subject ‘I’. ‘is’ is used with the subject ‘he/she/it or the singular form of nouns. ‘are’ is used with the ‘we/you/they or the plural form of nouns.\n\nExample:\n\n    I am a musician.\n    It is my pen\n    You are a fraud.\n\nNegative sentence:\n\nSubject + am not/is not/are not + object\n\nExample:\n\n    Positive: I am a good boy.\n    Negative: I am not a good boy.\n    Positive: It is her book.\n    Negative: It is not her book.\n    Positive: You are my friend.\n    Negative: You are not my friend.\n\nInterrogative:\n\nAm/is/are + subject + object + Note of Interrogation (?)\n\nExample:\n\n    Positive: I am an intelligent boy.\n    Interrogative: Am I an intelligent boy?\n    Positive: He is angry.\n    Interrogative: Is he angry?\n    Positive: They are my friends.\n    Interrogative: Are they my friends?\n"
+          },
+          {
+            "fifthTopicName": "Present Continuous Tense",
+            "fifthTopicDetails": "অতীত কালে কিছু সময়ের জন্য কোন কাজ চলছিল বোঝালে Past Continuous Tense ব্যবহৃত হয়। \n\nPast continuous tense is used to express the action which was continued for some time in the past. It describes an on-going past action.\n\nবাংলায় চেনার উপায়: বাংলায় ক্রিয়ার শেষে তেছিল, তেছিলাম, তেছিলে, তেছিলেন, চ্ছিল, চ্ছিলে, চ্ছিলেন, ছিল, ছিলাম, ছিলে, অথবা ছিলেন থাকলে সাধারণত past tense হয়ে থাকে।  \n\nExample:\n\n    He was reading the book - সে বইটি পড়ছিলো/পড়তেছিল।\n    They were playing football - তারা ফুটবল খেলছিল।\n    The birds were flying in the sky - পাখিরা আকাশে উড়ছিল।\n\nStructure of the sentence:\n\nPositive sentence:\n\nSubject + was/were + present form of the verb + ing + object.\n\nExample:\n\n    He was singing a song.\n    They were walking together.\n    You were talking like a teacher.\n\nNote: Subject first and third person singular হলে was বসবে। You/we/they এবং অন্যান্য plural subject এর শেষে were বসবে।\n\nNegative sentence:\n\nSubject + was not/were not + present form of the verb + ing + object.\n\nExample:\n\n    I was not taking tea.\n    He was not teaching English.\n    They were reading in the classroom.\n\nInterrogative sentence:\n\n    Was/were + subject + present form of the verb + ing + object + note of interrogation (?)\n\nExample:\n\n    Was he reading the book?\n    Were they traveling to Chittagong?\n    Was she singing the song?\n"
+          },
+          {
+            "sixthTopicName": "Past Perfect Tense",
+            "sixthTopicDetails": "অতীত কালে দুটি কাজ সম্পূর্ণ হলে যে কাজটি আগে হয় সেটি past perfect tense হয় এবং যে কাজটি পরে হয় সেটি past indefinite tense হয়।\n\nThe past perfect tense indicates two works that were completed in the past; past indefinite tense is used in the second or later action.\n\nবাংলায় চেনার উপায়: বাংলায় ক্রিয়ার শেষে ছিল, ছিলাম, ছিলে, ছিলেন, ল, লাম, লে, লেন, তাম, তে, অথবা, তেন, ইত্যাদি থাকলে সাধারণত past tense হয়ে থাকে।  \n\nExample:\n\n    The train had left before I ate - আমি খাওয়ার আগেই ট্রেন ছেড়ে দিয়েছিল।\n    He had come home before I went to school - আমি স্কুলে যাওয়ার পূর্বেই সে বাড়ি এসেছিল।\n    The students had left the class before the bell rang - ঘন্টা পরার পূর্বেই ছাত্রছাত্রীরা ক্লাস ত্যাগ করেছিল।\n\nStructure of the sentence: auxiliary verb ‘had,’ and past participle form of the verb is used as the main verb.\n\nPositive sentence:\n\nStructure 1:\n\nSubject + had + past participle form of the verb + object.\n\nStructure 2:\n\n1st Subject + had + past participle form of the verb + object (if any) + before + 2nd subject + past form of the verb + 2nd object\n\nStructure 3:\n\n2nd subject + past form of the verb + 2nd object (if any)+ after+1st Subject + had + past participle form of the verb    \n\nExample:\n\n    He had done this assignment last week. (1st structure)\n    The students had stood up before the teacher came.\n    The patient died after the doctor had come.\n\nNegative sentence:\n\nSubject + had not + past participle form of verb + object.\n\nExample:\n\n    I had not watched the movie.\n    He had not reached the station.\n    They had not told me anything before the viva started.\n\nInterrogative sentence:\n\nYes/no sentence: Had + subject + past participle form of the verb + object +?\n\n‘Wh’ question: Wh-word + had + past participle form of the verb + object +?\n\nExample:\n\n    Had you finished the work before his presentation?\n    Had he caught the cat before she drank the milk?\n    Why had you broken the glass?\n    What had you done before I came home?\n"
+          },
+          {
+            "seventhTopicName": "Past Perfect Continuous Tense",
+            "seventhTopicDetails": "অতীত কালে কোন কাজ কোন বিশেষ সময়ের পূর্বে আরম্ভ হয়ে সেই সময় পর্যন্ত চলছিল বোঝালে past perfect continuous tense হয়। \n\nযদি দুটি কাজের কথা উল্লেখ থাকে তাহলে যে কাজটি আগে ঘটেছিলো সেই কাজটির past perfect continuous tense হবে।\n\nIt describes an ongoing action which started in the past and continued for sometimes in the past. ‘For’ and ‘since’ are used to show the time reference, and it expresses when the action started and how long the work continued in the past.\n\nবাংলায় চেনার উপায়: বাংলায় ক্রিয়ার শেষে তেছিল, তেছিলে, তেছিলাম, তেছিলেন, চ্ছিল, চ্ছিলাম, চ্ছিলে, চ্ছিলেন, এদের যে কোন একটি উল্লেখ থাকলে সাধারনত past perfect continuous tense বোঝায়।\n\nএক্ষেত্রে, কিছু বিষয়ের প্রতি খেয়াল রাখতে হবে:\n\n    অতীত কালে দুটি কাজ হয়েছিল।\n    একটি কাজ আগে এবং অপর কাজটি পরে সংগঠিত হয়েছিল।\n    যে কাজটি পূর্বে শুরু হয়েছিল সেটি দীর্ঘ সময় ধরে চলেছিল।\n\nExample:\n\n    They had been playing before the train came - ট্রেন আসার পূর্বে তারা খেলতেছিলো।\n    I had been reading the book before you called - তুমি কল করার পূর্বে আমি বই পড়তেছিলাম।\n    She had been watching the Television when I came to meet with her - আমি যখন তার সাথে দেখা করতে আসলাম তখন সে টেলিভিশন দেখতেছিলো।\n    He had been playing football since morning - সে সকাল থেকে ফুটবল খেলতেছিলো।\n\nStructure of the sentence:\n\nPositive sentence:\n\n Structure 1:\n\n Subject + had been + present form of verb + ing + object + time reference\n\n Structure 2:\n\n 1st subject + had been + present form of verb + ing + 1st object + 2nd subject + verb এর past form + 2nd object.\n\nExample:\n\n    He had been working in a non-government organization since 1997.\n    They had been gossiping for two hours.\n    He had been playing cricket before the bell rang.\n    I had been watching the movie before you came.\n\nNegative sentence:\n\nSubject + had not been + present form of the verb + ing + object + time reference.\n\nExample:\n\n    He had not been working in a non-government organization since 1997.\n    He had not been doing his assignment since 10 o’clock.\n    They had not been eating lunch for two months.\n\nInterrogative sentence:\n\nHad + subject + been + present form of the verb + ing + object + time reference +?\n\nExample:\n\n    Had he been walking since morning?\n    Had you been helping the poor since 2009?\n    Had they been playing cricket for six years?\n"
+          }
+        ]
+      },
+      {
+        "subCategoryName": "Future Tense (ভবিষ্যৎ কাল)",
+        "subCategoryImage": "",
+        "subCategoryDetailsList": [
+
+          {
+            "firstTopicName": "Future Tense কাকে বলে? কত প্রকার ও কি কি?",
+            "firstTopicDetails": "যে tense ভবিষ্যতের কোন ঘটনাকে বোঝায় তাকে future tense বলে।\n\nThe tense that expresses any future event is called future tense.\n\nExample:\n\n    I shall/ will do this work - আমি এই কাজটি করবো।\n    She will go to the office - সে অফিসে যাবে।\n\nClassification:\n\nFuture tense can be classified into four types:\n\n    Simple Future Tense\n    Future Continuous Tense\n    Future Perfect Tense\n    Future Perfect Continuous Tense\n"
+          },
+          {
+            "secondTopicName": "Simple Future Tense",
+            "secondTopicDetails": "Simple Future Tense ভবিষ্যতে ঘটবে এমন কোন কাজকে বোঝায়।\n\nSimple Future Tense denotes to an action which will happen in the future.\n\nExample:\n\n    I will go to the varsity - আমি বিশ্ববিদ্যালয়ে যাবো।\n    I will sing the song - আমি গানটি গাইবো।\n    He will help you - সে তোমাকে সাহায্য করবে।\n\nStructure of the sentence:\n\nPositive sentence:\n\nSubject+ shall/will+ simple form of verb+ object.\n\nExample:\n\n    I will/ shall write the poem - আমি কবিতাটি লিখবো।\n    You will do the work - তুমি কাজটি করবে।\n    They will go shopping - তারা কেনাকাটা করতে যাবে।\n\nNote: First person-এর পরে সাধারণত: shall বসতে পারে তবে আজকাল সবক্ষেত্রেই will ব্যবহৃত হয়।\n\nNegative sentence:\n\nSubject+ will not/ won’t + simple form of verb+ object.\n\nExample:\n\n    I will not/ won’t write the poem - আমি কবিতাটি লিখবো না।\n    You will not/ won’t do the work - তুমি কাজটি করবে না।\n    They will not/ won’t go shopping - তারা কেনাকাটা করতে যাবে না।\n\nInterrogative sentence:\n\nWill+ Subject+ simple form of verb+ object +note of interrogation (?)\n\nExample:\n\n    Will I write the poem? - আমি কি কবিতাটি লিখবো?\n    Will you do the work? - তুমি কি কাজটি করবে?\n    Will they go shopping? - তারা কি কেনাকাটা করতে যাবে?\n"
+          },
+          {
+            "thirdTopicName": "Future Continuous Tense",
+            "thirdTopicDetails": "Future Continuous Tense ভবিষ্যতে ঘটতে থাকবে এমন কোন চলমান কাজকে বোঝায়।\n\nFuture Continuous Tense denotes to an on-going action which will happen in the future.\n\nExample:\n\n    I will be writing the poem - আমি কবিতাটি লিখতে থাকবো।\n    You will be doing the work - তুমি কাজটি করতে থাকবে।\n    They will be going shopping - তারা কেনাকাটা করতে যেতে থাকবে।\n\nStructure of the sentence:\n\nPositive sentence:\n\nSubject+ will+ be+ simple form of verb+ ing + object.\n\nExample:\n\n    We will be going to the fair - আমরা মেলায় যেতে থাকবো।\n    You will be going to the office - তুমি অফিসে যেতে থাকবে।\n    He will be helping you - সে তোমাকে সাহায্য করতে থাকবে।\n\nNegative sentence:\n\nSubject+ will not/ won’t + be+ simple form of verb+ ing + object.\n\nExample:\n\n    We will not/ won’t be going to the fair - আমরা মেলায় যেতে থাকবো না।\n    You will not/ won’t be going to the office - তুমি অফিসে যেতে থাকবে না।\n    He will not/ won’t be helping you - সে তোমাকে সাহায্য করতে থাকবে না।\n\nInterrogative sentence:\n\nWill+ Subject+ be+ simple form of verb+ ing+ object +note of interrogation (?)\n\nExample:\n\n    Will we be going to the fair? - আমরা কি মেলায় যেতে থাকবো?\n    Will you be going to the office? - তুমি কি অফিসে যেতে থাকবে?\n    Will he be helping you? - সে কি তোমাকে সাহায্য করতে থাকবে?\n"
+          },
+          {
+            "fourthTopicName": "Future Perfect Tense:",
+            "fourthTopicDetails": "Future Perfect Tense এমন কোন কাজকে বোঝায় যা ভবিষ্যতে কোন সময়ে ঘটে থাকবে।\n\nভবিষ্যতে দুটি কাজ হলে যে কাজটি আগে হয় সেটা Future Perfect Tense হয় এবং যেটা পরে হয় সেটা \u200DSimple Present tense হয়।\n\nFuture Perfect Tense denotes to an action which will have been occurred at some time in the future. If two actions take place in the future, the first one is Future Perfect Tense and the second one is Simple Present Tense.\n\nExample:\n\n    I will have written the poem - আমি কবিতাটি লিখে থাকবো।\n    By the time you reach, we will have started our journey - তুমি এসে পৌঁছোতে পৌঁছোতে আমরা আমাদের যাত্রা শুরু করে ফেলবো।\n    He will have helped you - সে তোমাকে সাহায্য করে থাকবে।\n\nStructure of the sentence:\n\nPositive sentence:\n\nSubject+ will have+ past participle form of verb+ object. or\n\n1st Subject+ will have+ past participle form of verb+ 1st object+ before+ 2nd Subject+ main verb + 2nd object.\n\nExample:\n\n    I will have given the speech before you come - তুমি আসার আগে আমি বক্তব্যটা দিয়ে থাকবো।\n    You will have gone to the office before I reach - আমি পৌঁছানোর আগে তুমি অফিসে গিয়ে থাকবে।\n    They will have done the work - তারা কাজটি করে থাকবে।\n\nNegative sentence:\n\nSubject+ will not/ won’t have+ past participle form of verb+ object.\n\n1st Subject+ will not/ won’t have+ past participle form of verb+ 1st object+ before+ 2nd Subject+ main verb + 2nd object.\n\nExample:\n\n    I will not/ won’t have given the speech before you come - তুমি আসার আগে আমি বক্তব্যটা দিয়ে থাকবো না।\n    You will not/ won’t have gone to the office before I reach - আমি পৌঁছানোর আগে তুমি অফিসে গিয়ে থাকবে না।\n    They will not / won’t have done the work. - তারা কাজটি করে থাকবে না।\n\nInterrogative sentence:\n\nWill+ Subject+ have+ past participle form of verb+ object+ note of interrogation (?) or\n\nWill+ 1st Subject + have+ past participle form of verb+ 1st object+ before+2nd subject+ main verb + 2nd object + note of interrogation (?)\n\nExample:\n\n    Will I have given the speech before you come? - তুমি আসার আগে আমি কি বক্তব্যটি দিয়ে থাকবো?\n    Will you have gone to the office before I reach? - আমি পৌঁছানোর আগে তুমি কি অফিসে গিয়ে থাকবে?\n    Will they have done the work? - তারা কি কাজটি করে থাকবে?\n"
+          },
+          {
+            "fifthTopicName": "Future Perfect Continuous Tense",
+            "fifthTopicDetails": "Future Perfect Continuous Tense চলমান কোন কাজকে বোঝায় যা ভবিষ্যতের কোন নির্দিষ্ট সময় ধরে ঘটতে থাকবে।\n\nভবিষ্যতে দুটি কাজ হলে যে কাজটি আগে চলতে থাকবে সেটা Future Perfect Continuous Tense হয় এবং যেটা পরে হয় সেটা \u200DSimple Present tense হয়।\n\nFuture Perfect Continuous Tense denotes to an on-going action which will be done at a certain time in the future. If two actions take place in the future, the first one which will be continued is Future Perfect Continuous Tense and the second one is Simple Present Tense.\n\nExample:\n\n    I will have been doing the work until you return. - তুমি ফিরে না আসা পর্যন্ত আমি কাজটি করতে থাকবো।\n    The students will have been doing the class until the bell rings. - ঘন্টা না বাজা পর্যন্ত ছাত্ররা ক্লাস করতে থাকবে।\n\nStructure of the sentence:\n\nPositive sentence:\n\nSubject+ will have been+ simple form of verb+ ing + object. or\n\n1st Subject+ will have been+ simple form of verb+ ing + 1st object+ before/ until + 2nd Subject+ main verb + 2nd object.\n\nExample:\n\n    We will have been doing the work. - আমরা কাজটি করতে থাকবো।\n    The student will have been doing the math before the teacher comes. - শিক্ষক আসার পূর্ব পর্যন্ত ছাত্রটি অংকটি করতে থাকবে।\n    They will have been watching the movie before you come. - তুমি আসার পূর্ব পর্যন্ত তারা ছায়াছবিটি দেখতে থাকবে।\n\nNegative sentence:\n\nSubject+ will not/ won’t have+ been+ simple form of verb+ ing + object. or\n\n1st Subject+ will not/ won’t have+ been+ simple form of verb+ ing + 1st object+ before/until+ 2nd Subject+ main verb + 2nd object.\n\nExample:\n\n    We will not have been doing the work. - আমরা কাজটি করতে থাকবো না।\n    The student will not/ won’t have been doing the math before the teacher comes. - শিক্ষক আসার পূর্ব পর্যন্ত ছাত্রটি অংকটি করতে থাকবে না।\n    They will not / won’t have been watching the movie before you come. - তুমি আসার পূর্ব পর্যন্ত তারা ছায়াছবিটি দেখতে থাকবে না।\n\nInterrogative sentence:\n\nWill+ Subject+ have+ been + simple form of verb+ ing + object + note of interrogation (?)\n\nor\n\nWill+ 1st Subject + have+ been + simple form of verb+ ing + 1st object+ before+2nd subject+ main verb + 2nd object + note of interrogation (?)\n\nExample:\n\n    Will I have been giving the speech before you come? - তুমি আসার আগে আমি কি বক্তব্যটি দিতে থাকবো?\n    Will you have been going to the office before I reach? - আমি পৌঁছানোর আগে তুমি কি অফিসে যেতে থাকবে?\n    Will they have been doing the work? - তারা কি কাজটি করতে থাকবে?\n"
           }
         ]
       }
