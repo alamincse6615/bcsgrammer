@@ -1,4 +1,5 @@
 import 'package:bcsenglishgrammer/Dtls_page.dart';
+import 'package:bcsenglishgrammer/sub.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -31,43 +32,58 @@ class _HomeState extends State<Home> {
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
+            child: Center(
+              child: Text(
+                  "Waste no more time arguing about what a good person should be. Be one   ",
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
             child: Row(
               children: [
                 Container(
                   width: MediaQuery.of(context).size.width*0.47,
+                  height: MediaQuery.of(context).size.height * .80,
                   child: Column(
+
                     children: [
-                      Card(
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20),
-                        ),
-                        color: Colors.greenAccent,
-                        elevation: 1,
-                        child: Container(
-                          width: MediaQuery.of(context).size.width,
-                          height: 200,
-                          child: Column(
-                            children: [
-                              Image.asset(
-                                  "assets/images/category/basic.png",
-                                width: MediaQuery.of(context).size.width*0.4,
-                                height: 150,
-                              ),
-                              Text(
-                                "Basic",
-                                style: TextStyle(
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.w600,
-                                    color: Colors.black54
+                      InkWell(
+                        onTap: (){
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>Sub()));
+                        },
+                        child: Card(
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          color: Colors.greenAccent,
+                          elevation: 1,
+                          child: Container(
+                            width: MediaQuery.of(context).size.width,
+                            height: 200,
+                            child: Column(
+                              children: [
+                                Image.asset(
+                                    "assets/images/category/basic.png",
+                                  width: MediaQuery.of(context).size.width*0.4,
+                                  height: 150,
                                 ),
-                              )
-                            ],
+                                Text(
+                                  "Basic",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.w600,
+                                      color: Colors.black54
+                                  ),
+                                )
+                              ],
+                            ),
                           ),
                         ),
                       ),
-                      SizedBox(
-                        height: 10,
-                      ),
+
                       Card(
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(20),
@@ -104,6 +120,7 @@ class _HomeState extends State<Home> {
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width*0.47,
+                  height: MediaQuery.of(context).size.height*.80,
                   child: Column(
                     children: [
                       InkWell(
@@ -111,7 +128,7 @@ class _HomeState extends State<Home> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context)=>detlespage()
+                                  builder: (context)=>Detlespage()
                               )
                           );
                         },
@@ -143,7 +160,45 @@ class _HomeState extends State<Home> {
                             ),
                           ),
                         ),
-                      )
+                      ),
+                      InkWell(
+                        onTap: (){
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context)=>Detlespage()
+                              )
+                          );
+                        },
+                        child: Card(
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          color: Colors.greenAccent,
+                          elevation: 2,
+                          child: Container(
+                            height: 200,
+                            width: MediaQuery.of(context).size.width,
+                            child: Column(
+                              children: [
+                                Image.asset(
+                                  "assets/images/category/advanced.png",
+                                  width: MediaQuery.of(context).size.width*0.5,
+                                  height: 150,
+                                ),
+                                Text(
+                                  "Advanced",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.w600,
+                                    color: Colors.black54
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                 )

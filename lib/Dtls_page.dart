@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-class detlespage extends StatefulWidget {
-  const detlespage({Key? key}) : super(key: key);
+class Detlespage extends StatefulWidget {
+  const Detlespage({Key? key}) : super(key: key);
 
   @override
   _detlespageState createState() => _detlespageState();
 }
 
-class _detlespageState extends State<detlespage> {
+class _detlespageState extends State<Detlespage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
