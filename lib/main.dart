@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import 'dart:async';
 
 import 'package:bcsenglishgrammer/Dtls_page.dart';
 import 'package:bcsenglishgrammer/home.dart';
+=======
+import 'package:bcsenglishgrammer/sub.dart';
+>>>>>>> local
 import 'package:flutter/material.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -56,6 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Center(
+<<<<<<< HEAD
         child: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -66,6 +72,22 @@ class _MyHomePageState extends State<MyHomePage> {
               )
             ],
           ),
+=======
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+         children: [
+           ElevatedButton(
+               onPressed: (){
+                 Navigator.push(
+                     context,
+                   MaterialPageRoute(
+                       builder: (context)=>Sub())
+                     );
+               },
+               child: Text("subcataagory")
+           )
+         ],
+>>>>>>> local
         ),
       ),
     );
