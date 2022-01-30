@@ -1,4 +1,6 @@
+import 'package:bcsenglishgrammer/sub.dart';
 import 'package:flutter/material.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -65,15 +67,18 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'https://www.grammarbd.com/en-grammar/word',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
-          ],
+         children: [
+           ElevatedButton(
+               onPressed: (){
+                 Navigator.push(
+                     context,
+                   MaterialPageRoute(
+                       builder: (context)=>Sub())
+                     );
+               },
+               child: Text("subcataagory")
+           )
+         ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
