@@ -1356,13 +1356,10 @@
     "categoryImage": "assets/images/advance",
     "subCategoryList": [
       {
-<<<<<<< HEAD
         "subCategoryName": "Phrases",
         "subCategoryImage": "https://moreonthedoor.com/images/detailed/2/Advanced.jpg?t=1457611863",
-=======
         "subCategoryName": "Phrases ",
         "subCategoryImage": "assets/images/advance",
->>>>>>> d4a05fb143dc2bc819191a20017add322a75560a
         "subCategoryDetailsList": [
 
           {
