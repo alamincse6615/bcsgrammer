@@ -1,7 +1,11 @@
+import 'package:bcsenglishgrammer/model/subcategorydetailslist.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 class Detlespage extends StatefulWidget {
-  const Detlespage({Key? key}) : super(key: key);
+  String detailsName;
+   SubCategoryDetailsList subCategoryDetailsList;
+  Detlespage(this.detailsName,this.subCategoryDetailsList);
 
   @override
   _detlespageState createState() => _detlespageState();
@@ -35,20 +39,20 @@ class _detlespageState extends State<Detlespage> {
                         ),
                         Text(
                           "Alphabets",
-                          style: TextStyle(fontSize: 25,color: Colors.white,fontWeight: FontWeight.w700),
+                          style: TextStyle(
+                              fontSize: 25,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w700),
                         ),
                       ],
                     ),
                     IconButton(
-                        onPressed: (){
-
-                        },
+                        onPressed: () {},
                         icon: Icon(
                           Icons.share,
                           color: Colors.white,
                           size: 25.0,
-                        )
-                    )
+                        ))
                   ],
                 ),
               ),
@@ -59,7 +63,8 @@ class _detlespageState extends State<Detlespage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.network("https://cheaptraining.com/wp-content/uploads/2020/10/AdobeStock_103437308-2.jpeg",
+            Image.network(
+              "https://cheaptraining.com/wp-content/uploads/2020/10/AdobeStock_103437308-2.jpeg",
               height: 220,
               width: MediaQuery.of(context).size.width,
               fit: BoxFit.fill,
@@ -73,14 +78,17 @@ class _detlespageState extends State<Detlespage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                      "What is Lorem Ipsum?",
-                    style: TextStyle(fontSize: 23,fontWeight: FontWeight.w600),
+                    "What is Lorem Ipsum?",
+                    style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 8.0,bottom: 5.0),
+                    padding: const EdgeInsets.only(top: 8.0, bottom: 5.0),
                     child: Text(
                       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-                      style: TextStyle(fontSize: 20,color: Colors.black54,),
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.black54,
+                      ),
                     ),
                   )
                 ],
@@ -92,11 +100,11 @@ class _detlespageState extends State<Detlespage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                      "What is Lorem Ipsum?",
-                    style: TextStyle(fontSize: 23,fontWeight: FontWeight.w600),
+                    "What is Lorem Ipsum?",
+                    style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 8.0,bottom: 5.0),
+                    padding: const EdgeInsets.only(top: 8.0, bottom: 5.0),
                     child: Text(
                       "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                       style: TextStyle(fontSize: 20),
@@ -111,11 +119,11 @@ class _detlespageState extends State<Detlespage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                      "What is Lorem Ipsum?",
-                    style: TextStyle(fontSize: 23,fontWeight: FontWeight.w600),
+                    "What is Lorem Ipsum?",
+                    style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 8.0,bottom: 5.0),
+                    padding: const EdgeInsets.only(top: 8.0, bottom: 5.0),
                     child: Text(
                       "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                       style: TextStyle(fontSize: 20),

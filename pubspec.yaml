@@ -65,11 +65,10 @@ flutter:
     - assets/images/category/intermediate.png
     - assets/images/category/basic.png
     - assets/images/images.png
-<<<<<<< HEAD
+
     - assets/jsonfile/grammer.json
-=======
-    - assets/images/advance
->>>>>>> d4a05fb143dc2bc819191a20017add322a75560a
+
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

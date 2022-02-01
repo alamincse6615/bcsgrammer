@@ -1,10 +1,14 @@
 import 'package:bcsenglishgrammer/Dtls_page.dart';
+import 'package:bcsenglishgrammer/model/subcategorylist.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class Sub extends StatefulWidget {
-  const Sub({Key? key}) : super(key: key);
+  String categoryName;
+  List<SubCategoryList>? subCategoryList;
+  Sub(this.categoryName, this.subCategoryList);
+
 
   @override
   _SubState createState() => _SubState();
@@ -16,15 +20,19 @@ class _SubState extends State<Sub> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.lightBlueAccent,
-        title: Text("Basic"),
+        title: Text(widget.categoryName),
       ),
       body: SafeArea(
         child: ListView.builder(
-          itemCount: 20,
+          itemCount: widget.subCategoryList!.length,
             itemBuilder: (context,index){
           return InkWell(
             onTap: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context)=>Detlespage()));
+              print(widget.subCategoryList![index].subCategoryDetailsList);
+             /* Navigator.push(context, MaterialPageRoute(builder: (context)=>Detlespage(
+                  widget.subCategoryList![index].subCategoryName.toString(),
+
+              )));*/
             },
             child: Card(
               shape: RoundedRectangleBorder(
@@ -49,14 +57,18 @@ class _SubState extends State<Sub> {
                       alignment: Alignment.center,
                       width: MediaQuery.of(context).size.width,
                       height: 70,
-                      child: Text(
-                        "Sub Category Name",
-                        style: TextStyle(
-                            color: Colors.white,
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold
-                        )
-                        ,)
+                      child: Padding(
+                        padding: const EdgeInsets.all(5.0),
+                        child: Text(
+                        widget.subCategoryList![index].subCategoryName.toString(),
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              color: Colors.white,
+                            fontSize: 23,
+                            fontWeight: FontWeight.bold
+                          )
+                          ,),
+                      )
                   )
 
                 ],

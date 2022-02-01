@@ -14,6 +14,15 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+
+  List<String> categoryImageList = [
+    "assets/images/category/basic.png",
+    "assets/images/category/intermediate.png",
+    "assets/images/category/advanced.png",
+    "assets/images/category/advanced.png",
+  ];
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,7 +47,7 @@ class _HomeState extends State<Home> {
         ),
         child: Container(
           color: Colors.black38,
-          child: Column(
+          /*child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
@@ -218,7 +227,58 @@ class _HomeState extends State<Home> {
                 ),
               )
             ],
-          ),
+          ),*/
+          child: FutureBuilder(
+            future: JsonRead(),
+            builder: (context,info){
+              var _list = info.data as List<GrammarModel>;
+
+              return GridView.builder(
+                  itemCount: _list.length,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2,
+                  ),
+                  itemBuilder: (context,index){
+                    return InkWell(
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Sub(
+                          _list[index].categoryName.toString(),
+                          _list[index].subCategoryList,
+                        )));
+                      },
+                      child: Card(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        color: Colors.greenAccent,
+                        elevation: 1,
+                        child: Container(
+                          width: MediaQuery.of(context).size.width,
+                          height: 200,
+                          child: Column(
+                            children: [
+                              Image.asset(
+                                categoryImageList[index],
+                                width: MediaQuery.of(context).size.width*0.4,
+                                height: 150,
+                              ),
+                              Text(
+                                _list[index].categoryName.toString(),
+                                style: TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.w600,
+                                    color: Colors.black54
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                    );
+                  }
+              );
+            },
+          )
         ),
       ),
     );
