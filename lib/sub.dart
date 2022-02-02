@@ -29,10 +29,11 @@ class _SubState extends State<Sub> {
           return InkWell(
             onTap: (){
               print(widget.subCategoryList![index].subCategoryDetailsList);
-             /* Navigator.push(context, MaterialPageRoute(builder: (context)=>Detlespage(
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>Detlespage(
                   widget.subCategoryList![index].subCategoryName.toString(),
-
-              )));*/
+                  widget.subCategoryList![index].subCategoryImage.toString(),
+                  widget.subCategoryList![index].subCategoryDetailsList,
+              )));
             },
             child: Card(
               shape: RoundedRectangleBorder(
@@ -53,7 +54,6 @@ class _SubState extends State<Sub> {
                       borderRadius: BorderRadius.circular(10),
                       color: Colors.black38,
                     ),
-
                       alignment: Alignment.center,
                       width: MediaQuery.of(context).size.width,
                       height: 70,
@@ -70,7 +70,6 @@ class _SubState extends State<Sub> {
                           ,),
                       )
                   )
-
                 ],
               ),
             ),

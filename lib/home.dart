@@ -1,7 +1,8 @@
 import 'dart:convert';
 
-import 'package:bcsenglishgrammer/Dtls_page.dart';
+import 'package:bcsenglishgrammer/about.dart';
 import 'package:bcsenglishgrammer/model/grammermodel.dart';
+import 'package:bcsenglishgrammer/privacyPolicy.dart';
 import 'package:bcsenglishgrammer/sub.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -18,7 +19,6 @@ class _HomeState extends State<Home> {
   List<String> categoryImageList = [
     "assets/images/category/basic.png",
     "assets/images/category/intermediate.png",
-    "assets/images/category/advanced.png",
     "assets/images/category/advanced.png",
   ];
 
@@ -37,6 +37,49 @@ class _HomeState extends State<Home> {
         ),
         backgroundColor: Colors.lightBlueAccent,
         title: Center(child: Text("B.C.S English Grammar")),
+        actions: [
+          PopupMenuButton(
+            // add icon, by default "3 dot" icon
+            // icon: Icon(Icons.book)
+              itemBuilder: (context){
+                return [
+                  PopupMenuItem<int>(
+                    value: 0,
+                    child: Text("Abouts"),
+                  ),
+
+                  PopupMenuItem<int>(
+                    value: 1,
+                    child: Text("Privacy Policy"),
+                  ),
+
+                  PopupMenuItem<int>(
+                    value: 2,
+                    child: Text("Logout"),
+                  ),
+                ];
+              },
+              onSelected:(value){
+                if(value == 0){
+                  Navigator.push(
+                      context,
+                    MaterialPageRoute(
+                        builder: (context)=>About()
+                    )
+                  );
+                }else if(value == 1){
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context)=>PrivacyPolicy()
+                      )
+                  );
+                }else if(value == 2){
+                  print("Logout menu is selected.");
+                }
+              }
+          ),
+        ],
       ),
       body: Container(
         decoration: BoxDecoration(

@@ -1,11 +1,20 @@
+
+
 import 'package:bcsenglishgrammer/model/subcategorydetailslist.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 class Detlespage extends StatefulWidget {
-  String detailsName;
-   SubCategoryDetailsList subCategoryDetailsList;
-  Detlespage(this.detailsName,this.subCategoryDetailsList);
+
+  String subCategoryName;
+  String subCategoryImage;
+  List<SubCategoryDetailsList>? subCategoryDetailsList;
+
+
+  Detlespage(this.subCategoryName, this.subCategoryImage, this.subCategoryDetailsList);
+
+
 
   @override
   _detlespageState createState() => _detlespageState();
@@ -17,7 +26,7 @@ class _detlespageState extends State<Detlespage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.lightBlueAccent,
-        title: Text(" Details"),
+        title: Text(widget.subCategoryName),
         bottom: PreferredSize(
             child: Container(
               height: 50,
@@ -59,80 +68,61 @@ class _detlespageState extends State<Detlespage> {
             ),
             preferredSize: Size.fromHeight(46.0)),
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Image.network(
-              "https://cheaptraining.com/wp-content/uploads/2020/10/AdobeStock_103437308-2.jpeg",
-              height: 220,
-              width: MediaQuery.of(context).size.width,
-              fit: BoxFit.fill,
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    "What is Lorem Ipsum?",
-                    style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 8.0, bottom: 5.0),
-                    child: Text(
-                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.black54,
-                      ),
-                    ),
-                  )
-                ],
+      body: SafeArea(
+        child: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                height: MediaQuery.of(context).size.height*0.26,
+                child: Image.asset(
+                  widget.subCategoryImage,
+                  width: MediaQuery.of(context).size.width,
+                  height: 240,
+                  fit: BoxFit.fill,
+                ),
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    "What is Lorem Ipsum?",
-                    style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 8.0, bottom: 5.0),
-                    child: Text(
-                      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                      style: TextStyle(fontSize: 20),
-                    ),
-                  )
-                ],
+              SizedBox(
+                height: 15,
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    "What is Lorem Ipsum?",
-                    style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 8.0, bottom: 5.0),
-                    child: Text(
-                      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                      style: TextStyle(fontSize: 20),
-                    ),
-                  )
-                ],
-              ),
-            ),
-          ],
+              Container(
+                height: MediaQuery.of(context).size.height,
+                child: ListView.builder(
+                    shrinkWrap: true,
+                    primary: true,
+                    physics: NeverScrollableScrollPhysics(),
+                  itemCount: widget.subCategoryDetailsList!.length,
+                    itemBuilder: (context,index){
+                      return Container(
+                        child: Padding(
+                          padding: const EdgeInsets.all(10.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                widget.subCategoryDetailsList![index].topicName.toString(),
+                                style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.only(top: 8.0, bottom: 5.0),
+                                child: Text(
+                                  widget.subCategoryDetailsList![index].topicDetails.toString(),
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                    color: Colors.black54,
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      );
+                    }
+                ),
+              )
+            ],
+          ),
         ),
       ),
     );
