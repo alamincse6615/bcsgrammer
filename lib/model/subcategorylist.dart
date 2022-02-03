@@ -13,8 +13,8 @@ class SubCategoryList {
         this.subCategoryDetailsList});
 
   SubCategoryList.fromJson(Map<String, dynamic> json) {
-    subCategoryName = json['subCategoryName'];
-    subCategoryImage = json['subCategoryImage'];
+    subCategoryName = json['subCategoryName']??"";
+    subCategoryImage = json['subCategoryImage']??"";
     if (json['subCategoryDetailsList'] != null) {
       subCategoryDetailsList = <SubCategoryDetailsList>[];
       json['subCategoryDetailsList'].forEach((v) {

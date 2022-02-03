@@ -5,8 +5,8 @@ class SubCategoryDetailsList {
   SubCategoryDetailsList({this.topicName, this.topicDetails});
 
   SubCategoryDetailsList.fromJson(Map<String, dynamic> json) {
-    topicName = json['TopicName'];
-    topicDetails = json['TopicDetails'];
+    topicName = json['TopicName']??"";
+    topicDetails = json['TopicDetails']??"";
   }
 
   Map<String, dynamic> toJson() {

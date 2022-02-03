@@ -8,8 +8,8 @@ class GrammarModel {
   GrammarModel({this.categoryName, this.categoryImage, this.subCategoryList});
 
   GrammarModel.fromJson(Map<String, dynamic> json) {
-    categoryName = json['categoryName'];
-    categoryImage = json['categoryImage'];
+    categoryName = json['categoryName']??"";
+    categoryImage = json['categoryImage']??"";
     if (json['subCategoryList'] != null) {
       subCategoryList = <SubCategoryList>[];
       json['subCategoryList'].forEach((v) {

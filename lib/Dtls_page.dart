@@ -69,10 +69,8 @@ class _detlespageState extends State<Detlespage> {
             preferredSize: Size.fromHeight(46.0)),
       ),
       body: SafeArea(
-        child: SingleChildScrollView(
-          scrollDirection: Axis.vertical,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+        child:ListView(
+            //crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
                 height: MediaQuery.of(context).size.height*0.26,
@@ -87,11 +85,8 @@ class _detlespageState extends State<Detlespage> {
                 height: 15,
               ),
               Container(
-                height: MediaQuery.of(context).size.height,
+                //height: MediaQuery.of(context).size.height,
                 child: ListView.builder(
-                    shrinkWrap: true,
-                    primary: true,
-                    physics: NeverScrollableScrollPhysics(),
                   itemCount: widget.subCategoryDetailsList!.length,
                     itemBuilder: (context,index){
                       return Container(
@@ -120,10 +115,10 @@ class _detlespageState extends State<Detlespage> {
                       );
                     }
                 ),
-              )
+              ),
             ],
           ),
-        ),
+
       ),
     );
   }
