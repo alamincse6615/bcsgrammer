@@ -225,7 +225,7 @@
       },
       {
         "subCategoryName": "Adjective (নাম বিশেষণ)",
-        "subCategoryImage": "assets/images/basic/Adjective.jpg",
+        "subCategoryImage": "assets/images/basic/Adjective.png",
         "subCategoryDetailsList": [
 
           {
@@ -703,8 +703,8 @@
     "categoryImage": "assetimage",
     "subCategoryList": [
       {
-        "subCategoryName": "Case ",
-        "subCategoryImage": "assetimage",
+        "subCategoryName": "Case",
+        "subCategoryImage": "assets/images/intermediate/case.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1353,11 +1353,11 @@
   },
   {
     "categoryName": "Advance",
-    "categoryImage": "assets/images/advance",
+    "categoryImage": "assets/images/advance/advance.png",
     "subCategoryList": [
       {
         "subCategoryName": "Phrases",
-        "subCategoryImage": "assets/images/advance",
+        "subCategoryImage": "assets/images/advance/phrases.png",
         "subCategoryDetailsList": [
           {
             "TopicName": "Phrases",
@@ -1386,7 +1386,7 @@
       },
       {
         "subCategoryName": "Determiners & Quantifiers",
-        "subCategoryImage": "assets/images/advance",
+        "subCategoryImage": "assets/images/advance/Determiners.png",
         "subCategoryDetailsList": [
           {
             "TopicName": "Determiners & Quantifiers",
@@ -1408,7 +1408,7 @@
       },
       {
         "subCategoryName": "Specific Determiners ",
-        "subCategoryImage": "https://moreonthedoor.com/images/detailed/2/Advanced.jpg?t=1457611863",
+        "subCategoryImage": "assets/images/advance/Determiners.png",
         "subCategoryDetailsList": [
           {
             "TopicName": "Verb phrase করার নিয়মগুলো নিচে বর্ণিত হল:",
@@ -1483,7 +1483,7 @@
       },
       {
         "subCategoryName": "WH-Questions ",
-        "subCategoryImage": "https://moreonthedoor.com/images/detailed/2/Advanced.jpg?t=1457611863",
+        "subCategoryImage": "assets/images/advance/WH-Questions.png",
         "subCategoryDetailsList": [
 
           {
@@ -1499,7 +1499,7 @@
       },
       {
         "subCategoryName": "Prefixes",
-        "subCategoryImage": "assets/images/advance",
+        "subCategoryImage": "assets/images/advance/Prefixes.png",
         "subCategoryDetailsList": [
 
           {

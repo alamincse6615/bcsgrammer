@@ -6,6 +6,7 @@ import 'package:bcsenglishgrammer/privacyPolicy.dart';
 import 'package:bcsenglishgrammer/sub.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -55,7 +56,7 @@ class _HomeState extends State<Home> {
 
                   PopupMenuItem<int>(
                     value: 2,
-                    child: Text("Logout"),
+                    child: Text("Settings"),
                   ),
                 ];
               },
@@ -75,7 +76,17 @@ class _HomeState extends State<Home> {
                       )
                   );
                 }else if(value == 2){
-                  print("Logout menu is selected.");
+                  setState(() {
+                    Fluttertoast.showToast(
+                        msg: "Coming soon",
+                        toastLength: Toast.LENGTH_SHORT,
+                        gravity: ToastGravity.CENTER,
+                        timeInSecForIosWeb: 1,
+                        backgroundColor: Colors.red,
+                        textColor: Colors.white,
+                        fontSize: 16.0
+                    );
+                  });
                 }
               }
           ),
