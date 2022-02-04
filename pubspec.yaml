@@ -72,6 +72,7 @@ flutter:
     - assets/images/category/basic.png
     - assets/images/images.png
     - assets/images/advance/
+    - assets/images/basic/common.png
 
     - assets/jsonfile/grammer.json
 

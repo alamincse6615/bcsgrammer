@@ -444,7 +444,7 @@
       },
       {
         "subCategoryName": "Interjections",
-        "subCategoryImage": "assets/images/basic/interjections.jpg",
+        "subCategoryImage": "assets/images/basic/interjection.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -518,7 +518,7 @@
       },
       {
         "subCategoryName": "Past Tense (অতীত কাল)",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/basic/past-tense.png",
         "subCategoryDetailsList": [
 
           {
@@ -553,7 +553,7 @@
       },
       {
         "subCategoryName": "Future Tense (ভবিষ্যৎ কাল)",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/basic/future-tense.png",
         "subCategoryDetailsList": [
 
           {
@@ -580,7 +580,7 @@
       },
       {
         "subCategoryName": "Number (বচন)",
-        "subCategoryImage": "assets/images/basic/alphabets.jpg",
+        "subCategoryImage": "assets/images/basic/number.png",
         "subCategoryDetailsList": [
 
           {
@@ -608,7 +608,7 @@
       },
       {
         "subCategoryName": "Gender (লিঙ্গ)",
-        "subCategoryImage": "assets/images/basic/interjections.jpg",
+        "subCategoryImage": "assets/images/basic/gender.png",
         "subCategoryDetailsList": [
 
           {
@@ -643,7 +643,7 @@
       },
       {
         "subCategoryName": "Articles",
-        "subCategoryImage": "assets/images/basic/Adjective.jpg",
+        "subCategoryImage": "assets/images/basic/articles.png",
         "subCategoryDetailsList": [
 
           {
@@ -736,7 +736,7 @@
       },
       {
         "subCategoryName": "Voice Change (Active to Passive)",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -832,7 +832,7 @@
       },
       {
         "subCategoryName": "Voice Change (Passive to Active) ",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -924,7 +924,7 @@
       },
       {
         "subCategoryName": "Prefixes",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -940,7 +940,7 @@
       },
       {
         "subCategoryName": "Suffixes",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -968,7 +968,7 @@
       },
       {
         "subCategoryName": "Comparison of Adjectives (Degree)",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1036,7 +1036,7 @@
       },
       {
         "subCategoryName": "Modal Auxiliaries",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1108,7 +1108,7 @@
       },
       {
         "subCategoryName": "Conditionals",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1140,7 +1140,7 @@
       },
       {
         "subCategoryName": "Right Forms of Verbs",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1151,7 +1151,7 @@
       },
       {
         "subCategoryName": "Right Forms of Verbs",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1162,7 +1162,7 @@
       },
       {
         "subCategoryName": "Clause",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1198,7 +1198,7 @@
       },
       {
         "subCategoryName": "Phrases",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1258,7 +1258,7 @@
       },
       {
         "subCategoryName": "Determiners & Quantifiers",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1294,7 +1294,7 @@
       },
       {
         "subCategoryName": "Narration",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1315,7 +1315,7 @@
       },
       {
         "subCategoryName": "Narration - Reporting to Reported Speech",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1327,7 +1327,7 @@
       },
       {
         "subCategoryName": "Narration - Reported to Reporting Speech",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1339,7 +1339,7 @@
       },
       {
         "subCategoryName": "Passage Narration",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1515,7 +1515,7 @@
       },
       {
         "subCategoryName": "Suffixes",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {
@@ -1543,7 +1543,7 @@
       },
       {
         "subCategoryName": "Comparison of Adjectives (Degree)",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
 
           {

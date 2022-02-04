@@ -98,10 +98,11 @@ class _detlespageState extends State<Detlespage> {
         ],
         bottom: PreferredSize(
             child: Container(
-              height: 50,
+              height: 58,
+              width: MediaQuery.of(context).size.width,
               color: Colors.lightBlueAccent,
               child: Padding(
-                padding: const EdgeInsets.all(10.0),
+                padding: const EdgeInsets.only(left: 10.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -115,12 +116,18 @@ class _detlespageState extends State<Detlespage> {
                             size: 25.0,
                           ),
                         ),
-                        Text(
-                          widget.subCategoryName,
-                          style: TextStyle(
-                              fontSize: 25,
-                              color: Colors.white,
-                              fontWeight: FontWeight.w700),
+                        Container(
+                          width: MediaQuery.of(context).size.width*0.7,
+                          child: Text(
+                            widget.subCategoryName,
+                            style: TextStyle(
+                                fontSize: 21,
+                                color: Colors.white,
+                                fontWeight: FontWeight.w700,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                            maxLines: 2,
+                          ),
                         ),
                       ],
                     ),
@@ -137,7 +144,7 @@ class _detlespageState extends State<Detlespage> {
                 ),
               ),
             ),
-            preferredSize: Size.fromHeight(46.0)),
+            preferredSize: Size.fromHeight(55.0)),
       ),
       body: SafeArea(
         child:CustomScrollView(
@@ -146,10 +153,10 @@ class _detlespageState extends State<Detlespage> {
               automaticallyImplyLeading: false,
               backgroundColor: Colors.white,
               pinned: false,
-              expandedHeight: MediaQuery.of(context).size.height * 0.3,
+              expandedHeight: MediaQuery.of(context).size.height * 0.25,
               flexibleSpace: FlexibleSpaceBar(
                   background: Image.asset(
-                    widget.subCategoryImage,
+                    widget.subCategoryImage==""?"assets/images/basic/common.png":widget.subCategoryImage,
                     fit: BoxFit.cover,
                   )),
             ),
@@ -165,14 +172,14 @@ class _detlespageState extends State<Detlespage> {
                           children: [
                             Text(
                               widget.subCategoryDetailsList![index].topicName.toString(),
-                              style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),
+                              style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(top: 8.0, bottom: 5.0),
+                              padding: const EdgeInsets.only(top: 12.0, bottom: 8.0),
                               child: Text(
                                 widget.subCategoryDetailsList![index].topicDetails.toString(),
                                 style: TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 18,
                                   color: Colors.black54,
                                 ),
                               ),

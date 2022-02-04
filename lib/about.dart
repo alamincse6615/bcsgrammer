@@ -99,107 +99,110 @@ class _AboutState extends State<About> {
                 ),
               )
             ),
-            Container(
-              width: MediaQuery.of(context).size.width,
-              child: Card(
-                elevation: 3,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        radius: 40.0,
-                        backgroundImage: AssetImage(
-                            "assets/images/profile/shohel.jpg",
+            Padding(
+              padding: const EdgeInsets.only(top: 8.0),
+              child: Container(
+                width: MediaQuery.of(context).size.width,
+                child: Card(
+                  elevation: 3,
+                  child: Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: Column(
+                      children: [
+                        CircleAvatar(
+                          radius: 40.0,
+                          backgroundImage: AssetImage(
+                              "assets/images/profile/shohel.jpg",
+                          ),
                         ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.only(top: 10.0),
-                        child: Column(
-                          children: [
-                            Text(
-                                "Md. Imran Hossan Shohel",
-                              style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),
-                            ),
-                            SizedBox(
-                              height: 5,
-                            ),
-                            Text(
-                              "Mobile App Developer (Flutter)",
-                              style: TextStyle(fontSize: 17,color: Colors.black54),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 8.0),
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  IconButton(
-                                      onPressed: (){
-                                        launchFacebook("fb://profile/100006006780680", "https://www.facebook.com/shohel.shikder.16/");
-                                      },
-                                      icon: CircleAvatar(
-                                        child: FaIcon(
-                                            FontAwesomeIcons.facebook,
-                                          color: Colors.white,
-                                          size: 20.0,
+                        Padding(
+                          padding: const EdgeInsets.only(top: 10.0),
+                          child: Column(
+                            children: [
+                              Text(
+                                  "Md. Imran Hossan Shohel",
+                                style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),
+                              ),
+                              SizedBox(
+                                height: 5,
+                              ),
+                              Text(
+                                "Mobile App Developer (Flutter)",
+                                style: TextStyle(fontSize: 17,color: Colors.black54),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.only(top: 8.0),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    IconButton(
+                                        onPressed: (){
+                                          launchFacebook("fb://profile/100006006780680", "https://www.facebook.com/shohel.shikder.16/");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                              FontAwesomeIcons.facebook,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                            radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
                                         ),
+                                      iconSize: 35.0,
+                                    ),
+                                    IconButton(
+                                        onPressed: (){
+                                          _launchEmail("md.shohelshikder27@gmail.com");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                              FontAwesomeIcons.envelope,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
                                           radius: 50.0,
-                                        backgroundColor: Colors.lightBlueAccent,
-                                      ),
-                                    iconSize: 35.0,
-                                  ),
-                                  IconButton(
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                      iconSize: 35.0,
+                                    ),
+                                    IconButton(
                                       onPressed: (){
-                                        _launchEmail("md.shohelshikder27@gmail.com");
+                                        linkedinIn("https://www.linkedin.com/in/md-shohel-shikder-b61800173/");
                                       },
                                       icon: CircleAvatar(
                                         child: FaIcon(
-                                            FontAwesomeIcons.envelope,
+                                          FontAwesomeIcons.linkedinIn,
                                           color: Colors.white,
                                           size: 20.0,
                                         ),
                                         radius: 50.0,
                                         backgroundColor: Colors.lightBlueAccent,
                                       ),
-                                    iconSize: 35.0,
-                                  ),
-                                  IconButton(
-                                    onPressed: (){
-                                      linkedinIn("https://www.linkedin.com/in/md-shohel-shikder-b61800173/");
-                                    },
-                                    icon: CircleAvatar(
-                                      child: FaIcon(
-                                        FontAwesomeIcons.linkedinIn,
-                                        color: Colors.white,
-                                        size: 20.0,
-                                      ),
-                                      radius: 50.0,
-                                      backgroundColor: Colors.lightBlueAccent,
+                                      iconSize: 35.0,
                                     ),
-                                    iconSize: 35.0,
-                                  ),
-                                  IconButton(
-                                    onPressed: (){
-                                      _gitHub("https://github.com/shohelshikder");
-                                    },
-                                    icon: CircleAvatar(
-                                      child: FaIcon(
-                                        FontAwesomeIcons.github,
-                                        color: Colors.white,
-                                        size: 20.0,
+                                    IconButton(
+                                      onPressed: (){
+                                        _gitHub("https://github.com/shohelshikder");
+                                      },
+                                      icon: CircleAvatar(
+                                        child: FaIcon(
+                                          FontAwesomeIcons.github,
+                                          color: Colors.white,
+                                          size: 20.0,
+                                        ),
+                                        radius: 50.0,
+                                        backgroundColor: Colors.lightBlueAccent,
                                       ),
-                                      radius: 50.0,
-                                      backgroundColor: Colors.lightBlueAccent,
+                                      iconSize: 35.0,
                                     ),
-                                    iconSize: 35.0,
-                                  ),
-                                ],
-                              ),
-                            )
-                          ],
-                        ),
-                      )
-                    ],
+                                  ],
+                                ),
+                              )
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
                   ),
                 ),
               ),
