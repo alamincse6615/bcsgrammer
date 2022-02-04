@@ -1,4 +1,6 @@
+import 'package:bcsenglishgrammer/about.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class PrivacyPolicy extends StatefulWidget {
   const PrivacyPolicy({Key? key}) : super(key: key);
@@ -12,7 +14,61 @@ class _PrivacyPolicyState extends State<PrivacyPolicy> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.lightBlueAccent,
         title: Text("Privacy Policy"),
+        actions: [
+          PopupMenuButton(
+            // add icon, by default "3 dot" icon
+            // icon: Icon(Icons.book)
+              itemBuilder: (context){
+                return [
+                  PopupMenuItem<int>(
+                    value: 0,
+                    child: Text("Abouts"),
+                  ),
+
+                  PopupMenuItem<int>(
+                    value: 1,
+                    child: Text("Privacy Policy"),
+                  ),
+
+                  PopupMenuItem<int>(
+                    value: 2,
+                    child: Text("Settings"),
+                  ),
+                ];
+              },
+              onSelected:(value){
+                if(value == 0){
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context)=>About()
+                      )
+                  );
+                }else if(value == 1){
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context)=>PrivacyPolicy()
+                      )
+                  );
+                }else if(value == 2){
+                  setState(() {
+                    Fluttertoast.showToast(
+                        msg: "Coming soon",
+                        toastLength: Toast.LENGTH_SHORT,
+                        gravity: ToastGravity.CENTER,
+                        timeInSecForIosWeb: 1,
+                        backgroundColor: Colors.red,
+                        textColor: Colors.white,
+                        fontSize: 16.0
+                    );
+                  });
+                }
+              }
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         child: Padding(
