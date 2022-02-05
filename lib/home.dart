@@ -21,6 +21,7 @@ class _HomeState extends State<Home> {
     "assets/images/category/basic.png",
     "assets/images/category/intermediate.png",
     "assets/images/category/advanced.png",
+    "assets/images/category/word.png",
   ];
 
 
@@ -322,7 +323,7 @@ class _HomeState extends State<Home> {
                                   Image.asset(
                                     categoryImageList[index],
                                     width: MediaQuery.of(context).size.width*0.4,
-                                    height: 150,
+                                    height: MediaQuery.of(context).size.height*0.19,
                                   ),
                                   Text(
                                     _list[index].categoryName.toString(),

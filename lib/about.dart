@@ -209,6 +209,114 @@ class _AboutState extends State<About> {
                 ),
               ),
               Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Container(
+                  width: MediaQuery.of(context).size.width,
+                  child: Card(
+                    elevation: 3,
+                    child: Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Column(
+                        children: [
+                          CircleAvatar(
+                            radius: 40.0,
+                            backgroundImage: AssetImage(
+                              "assets/images/profile/mdYasinKhan.jpg",
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10.0),
+                            child: Column(
+                              children: [
+                                Text(
+                                  "Md. Yasin Khan",
+                                  style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),
+                                ),
+                                SizedBox(
+                                  height: 5,
+                                ),
+                                Text(
+                                  "Mobile App Developer (Flutter)",
+                                  style: TextStyle(fontSize: 17,color: Colors.black54),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 8.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      IconButton(
+                                        onPressed: (){
+                                          launchFacebook("fb://profile/100010517912123", "https://www.facebook.com/profile.php?id=100010517912123");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                            FontAwesomeIcons.facebook,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                          radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                        onPressed: (){
+                                          _launchEmail("mdyasinkhan603@gmail.com");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                            FontAwesomeIcons.envelope,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                          radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                        onPressed: (){
+                                          linkedinIn("https://www.linkedin.com/in/md-yasin-khan-46501b231/");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                            FontAwesomeIcons.linkedinIn,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                          radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                        onPressed: (){
+                                          _gitHub("https://github.com/mdyasinkhan1996");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                            FontAwesomeIcons.github,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                          radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                        iconSize: 35.0,
+                                      ),
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
                 padding: const EdgeInsets.only(top: 8.0),
                 child: Container(
                   width: MediaQuery.of(context).size.width,
@@ -292,6 +400,438 @@ class _AboutState extends State<About> {
                                       IconButton(
                                         onPressed: (){
                                           _gitHub("https://github.com/shohelshikder");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                            FontAwesomeIcons.github,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                          radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                        iconSize: 35.0,
+                                      ),
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top: 8.0),
+                child: Container(
+                  width: MediaQuery.of(context).size.width,
+                  child: Card(
+                    elevation: 3,
+                    child: Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Column(
+                        children: [
+                          CircleAvatar(
+                            radius: 40.0,
+                            backgroundImage: AssetImage(
+                                "assets/images/profile/asad.png",
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10.0),
+                            child: Column(
+                              children: [
+                                Text(
+                                    "Md Asaduzzaman",
+                                  style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),
+                                ),
+                                SizedBox(
+                                  height: 5,
+                                ),
+                                Text(
+                                  "Mobile App Developer (Flutter)",
+                                  style: TextStyle(fontSize: 17,color: Colors.black54),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 8.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      IconButton(
+                                          onPressed: (){
+                                            launchFacebook("fb://profile/100008642773136", "https://www.facebook.com/asad.sikder.90");
+                                          },
+                                          icon: CircleAvatar(
+                                            child: FaIcon(
+                                                FontAwesomeIcons.facebook,
+                                              color: Colors.white,
+                                              size: 20.0,
+                                            ),
+                                              radius: 50.0,
+                                            backgroundColor: Colors.lightBlueAccent,
+                                          ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                          onPressed: (){
+                                            _launchEmail("asadsikder90@gmail.com");
+                                          },
+                                          icon: CircleAvatar(
+                                            child: FaIcon(
+                                                FontAwesomeIcons.envelope,
+                                              color: Colors.white,
+                                              size: 20.0,
+                                            ),
+                                            radius: 50.0,
+                                            backgroundColor: Colors.lightBlueAccent,
+                                          ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                        onPressed: (){
+                                          linkedinIn("");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                            FontAwesomeIcons.linkedinIn,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                          radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                        onPressed: (){
+                                          _gitHub("");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                            FontAwesomeIcons.github,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                          radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                        iconSize: 35.0,
+                                      ),
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top: 8.0),
+                child: Container(
+                  width: MediaQuery.of(context).size.width,
+                  child: Card(
+                    elevation: 3,
+                    child: Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Column(
+                        children: [
+                          CircleAvatar(
+                            radius: 40.0,
+                            backgroundImage: AssetImage(
+                                "assets/images/profile/",
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10.0),
+                            child: Column(
+                              children: [
+                                Text(
+                                    "Shofiqul Islam",
+                                  style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),
+                                ),
+                                SizedBox(
+                                  height: 5,
+                                ),
+                                Text(
+                                  "Mobile App Developer (Flutter)",
+                                  style: TextStyle(fontSize: 17,color: Colors.black54),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 8.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      IconButton(
+                                          onPressed: (){
+                                            launchFacebook("fb://profile/100011880882328", "https://www.facebook.com/shofiqulislam.shofiq.777");
+                                          },
+                                          icon: CircleAvatar(
+                                            child: FaIcon(
+                                                FontAwesomeIcons.facebook,
+                                              color: Colors.white,
+                                              size: 20.0,
+                                            ),
+                                              radius: 50.0,
+                                            backgroundColor: Colors.lightBlueAccent,
+                                          ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                          onPressed: (){
+                                            _launchEmail(" shofiqul9246@gmail.com");
+                                          },
+                                          icon: CircleAvatar(
+                                            child: FaIcon(
+                                                FontAwesomeIcons.envelope,
+                                              color: Colors.white,
+                                              size: 20.0,
+                                            ),
+                                            radius: 50.0,
+                                            backgroundColor: Colors.lightBlueAccent,
+                                          ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                        onPressed: (){
+                                          linkedinIn("https://www.linkedin.com/in/shofiqul-islam-99a016231/");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                            FontAwesomeIcons.linkedinIn,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                          radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                        onPressed: (){
+                                          _gitHub("https://github.com/shofiqul9246/shofiqul9246/new/main?filename=README.md&path=%2F&value=-+%F0%9F%91%8B+Hi%2C+I%E2%80%99m+%40shofiqul9246%0A-+%F0%9F%91%80+I%E2%80%99m+interested+in+...%0A-+%F0%9F%8C%B1+I%E2%80%99m+currently+learning+...%0A-+%F0%9F%92%9E%EF%B8%8F+I%E2%80%99m+looking+to+collaborate+on+...%0A-+%F0%9F%93%AB+How+to+reach+me+...%0A%0A%3C%21---%0Ashofiqul9246%2Fshofiqul9246+is+a+%E2%9C%A8+special+%E2%9C%A8+repository+because+its+%60README.md%60+%28this+file%29+appears+on+your+GitHub+profile.%0AYou+can+click+the+Preview+link+to+take+a+look+at+your+changes.%0A---%3E%0A");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                            FontAwesomeIcons.github,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                          radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                        iconSize: 35.0,
+                                      ),
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top: 8.0),
+                child: Container(
+                  width: MediaQuery.of(context).size.width,
+                  child: Card(
+                    elevation: 3,
+                    child: Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Column(
+                        children: [
+                          CircleAvatar(
+                            radius: 40.0,
+                            backgroundImage: AssetImage(
+                                "assets/images/profile/",
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10.0),
+                            child: Column(
+                              children: [
+                                Text(
+                                    "Md. Hasibur Rahman Sikder ",
+                                  style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),
+                                ),
+                                SizedBox(
+                                  height: 5,
+                                ),
+                                Text(
+                                  "Mobile App Developer (Flutter)",
+                                  style: TextStyle(fontSize: 17,color: Colors.black54),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 8.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      IconButton(
+                                          onPressed: (){
+                                            launchFacebook("fb://profile/100056294041467", "https://www.facebook.com/farabi.akash.5011");
+                                          },
+                                          icon: CircleAvatar(
+                                            child: FaIcon(
+                                                FontAwesomeIcons.facebook,
+                                              color: Colors.white,
+                                              size: 20.0,
+                                            ),
+                                              radius: 50.0,
+                                            backgroundColor: Colors.lightBlueAccent,
+                                          ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                          onPressed: (){
+                                            _launchEmail("farabiakash21@gmail. com");
+                                          },
+                                          icon: CircleAvatar(
+                                            child: FaIcon(
+                                                FontAwesomeIcons.envelope,
+                                              color: Colors.white,
+                                              size: 20.0,
+                                            ),
+                                            radius: 50.0,
+                                            backgroundColor: Colors.lightBlueAccent,
+                                          ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                        onPressed: (){
+                                          linkedinIn("https://www.linkedin.com/in/shofiqul-islam-99a016231/");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                            FontAwesomeIcons.linkedinIn,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                          radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                        onPressed: (){
+                                          _gitHub("https://github.com/shofiqul9246/shofiqul9246/new/main?filename=README.md&path=%2F&value=-+%F0%9F%91%8B+Hi%2C+I%E2%80%99m+%40shofiqul9246%0A-+%F0%9F%91%80+I%E2%80%99m+interested+in+...%0A-+%F0%9F%8C%B1+I%E2%80%99m+currently+learning+...%0A-+%F0%9F%92%9E%EF%B8%8F+I%E2%80%99m+looking+to+collaborate+on+...%0A-+%F0%9F%93%AB+How+to+reach+me+...%0A%0A%3C%21---%0Ashofiqul9246%2Fshofiqul9246+is+a+%E2%9C%A8+special+%E2%9C%A8+repository+because+its+%60README.md%60+%28this+file%29+appears+on+your+GitHub+profile.%0AYou+can+click+the+Preview+link+to+take+a+look+at+your+changes.%0A---%3E%0A");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                            FontAwesomeIcons.github,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                          radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                        iconSize: 35.0,
+                                      ),
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top: 8.0),
+                child: Container(
+                  width: MediaQuery.of(context).size.width,
+                  child: Card(
+                    elevation: 3,
+                    child: Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Column(
+                        children: [
+                          CircleAvatar(
+                            radius: 40.0,
+                            backgroundImage: AssetImage(
+                                "assets/images/profile/habib.jpg",
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10.0),
+                            child: Column(
+                              children: [
+                                Text(
+                                    "Md Habib",
+                                  style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),
+                                ),
+                                SizedBox(
+                                  height: 5,
+                                ),
+                                Text(
+                                  "Mobile App Developer (Flutter)",
+                                  style: TextStyle(fontSize: 17,color: Colors.black54),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 8.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      IconButton(
+                                          onPressed: (){
+                                            launchFacebook("fb://profile/100001882139162", "https://www.facebook.com/md.habib.583234");
+                                          },
+                                          icon: CircleAvatar(
+                                            child: FaIcon(
+                                                FontAwesomeIcons.facebook,
+                                              color: Colors.white,
+                                              size: 20.0,
+                                            ),
+                                              radius: 50.0,
+                                            backgroundColor: Colors.lightBlueAccent,
+                                          ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                          onPressed: (){
+                                            _launchEmail("");
+                                          },
+                                          icon: CircleAvatar(
+                                            child: FaIcon(
+                                                FontAwesomeIcons.envelope,
+                                              color: Colors.white,
+                                              size: 20.0,
+                                            ),
+                                            radius: 50.0,
+                                            backgroundColor: Colors.lightBlueAccent,
+                                          ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                        onPressed: (){
+                                          linkedinIn("");
+                                        },
+                                        icon: CircleAvatar(
+                                          child: FaIcon(
+                                            FontAwesomeIcons.linkedinIn,
+                                            color: Colors.white,
+                                            size: 20.0,
+                                          ),
+                                          radius: 50.0,
+                                          backgroundColor: Colors.lightBlueAccent,
+                                        ),
+                                        iconSize: 35.0,
+                                      ),
+                                      IconButton(
+                                        onPressed: (){
+                                          _gitHub("");
                                         },
                                         icon: CircleAvatar(
                                           child: FaIcon(

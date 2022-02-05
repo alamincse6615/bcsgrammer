@@ -67,9 +67,7 @@ flutter:
     - assets/images/intermediate/
     - assets/images/profile/
     - assets/images/logo/logo.png
-    - assets/images/category/advanced.png
-    - assets/images/category/intermediate.png
-    - assets/images/category/basic.png
+    - assets/images/category/
     - assets/images/images.png
     - assets/images/advance/
     - assets/images/basic/common.png

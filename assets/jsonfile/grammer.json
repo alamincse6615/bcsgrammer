@@ -736,7 +736,7 @@
       },
       {
         "subCategoryName": "Voice Change (Active to Passive)",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/active.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -832,7 +832,7 @@
       },
       {
         "subCategoryName": "Voice Change (Passive to Active) ",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/voice.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -908,7 +908,7 @@
       },
       {
         "subCategoryName": "WH-Questions ",
-        "subCategoryImage": "assetimage",
+        "subCategoryImage": "assets/images/intermediate/wh-qustion.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -923,8 +923,8 @@
         ]
       },
       {
-        "subCategoryName": "Prefixes",
-        "subCategoryImage": "",
+        "subCategoryName": "Prefix",
+        "subCategoryImage": "assets/images/intermediate/prefix.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -940,7 +940,7 @@
       },
       {
         "subCategoryName": "Suffixes",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/sufix.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -968,7 +968,7 @@
       },
       {
         "subCategoryName": "Comparison of Adjectives (Degree)",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/degree.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1036,7 +1036,7 @@
       },
       {
         "subCategoryName": "Modal Auxiliaries",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/modal.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1108,7 +1108,7 @@
       },
       {
         "subCategoryName": "Conditionals",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/conditional.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1140,7 +1140,7 @@
       },
       {
         "subCategoryName": "Right Forms of Verbs",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/right-form-of-varb.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1150,8 +1150,8 @@
         ]
       },
       {
-        "subCategoryName": "Right Forms of Verbs",
-        "subCategoryImage": "",
+        "subCategoryName": "Subject-Verb Agreement",
+        "subCategoryImage": "assets/images/intermediate/verb-agreement.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1162,7 +1162,7 @@
       },
       {
         "subCategoryName": "Clause",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/clauses.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1198,7 +1198,7 @@
       },
       {
         "subCategoryName": "Phrases",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/phrase.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1258,7 +1258,7 @@
       },
       {
         "subCategoryName": "Determiners & Quantifiers",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/determines.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1294,7 +1294,7 @@
       },
       {
         "subCategoryName": "Narration",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/naration.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1315,7 +1315,7 @@
       },
       {
         "subCategoryName": "Narration - Reporting to Reported Speech",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/reporting.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1327,7 +1327,7 @@
       },
       {
         "subCategoryName": "Narration - Reported to Reporting Speech",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/reported.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1339,7 +1339,7 @@
       },
       {
         "subCategoryName": "Passage Narration",
-        "subCategoryImage": "",
+        "subCategoryImage": "assets/images/intermediate/Passage.jpg",
         "subCategoryDetailsList": [
 
           {
@@ -1606,6 +1606,22 @@
           {
             "TopicName": "Change of Degrees:",
             "TopicDetails": "-able\tcapable of being – হওয়ার যোগ্য\tpresentable, readable, believable \n-al\tbelonging to – নির্দিষ্ট বৈশিষ্ট্যের অংশ\tlegal, local, mental, mortal, fatal, musical\n-ar\tquality – বৈশিষ্ট্য\tfamiliar, regular, circular\n-ed\tquality – বৈশিষ্ট্য\tgifted, talented, learned, cultured\n-en\tmade of – যা থেকে বানানো হয়েছে\tgolden, wooden, woolen, leaden\n-ful\tnotable for – উল্লেখযোগ্য\tbeautiful, wonderful, doubtful\n-ible\tcapable of – যোগ্য\tadmissible, divisible, sensible\n-ic\tpertaining to – সংক্রান্ত \tallergic, mythic, domestic, historic\n-ish\tbelonging to – নির্দিষ্ট গোষ্ঠীর অংশ\tselfish, Turkish, Irish, Polish, childish\n-istic\tcharacterized by an attribute নির্দিষ্ট একটি আচরণ\tfantastic, pessimistic, optimistic, sarcastic\n-ile\thaving the nature of – একটি বৈশিষ্ট্য সম্বলিত\tfragile, juvenile, servile\n-ian/an\tbelonging to – একটি গোষ্ঠী/দেশ/সময়কালের অন্তর্গত\tIndian, American, Russian, Victorian\n-ive\thaving the nature o f– একটি বৈশিষ্ট্য সম্বলিত\tcreative, punitive, divisive, decisive \n-less\tWithout – ছাড়া\tfearless, helpless, endless, tireless\n-ous\tcharacterized by an attribute নির্দিষ্ট একটি আচরণ সম্বলিত\tstudious, pious, religious, joyous \n-y\tcharacterized by – বৈশিষ্ট্যময়\tsmelly, healthy, greedy, wealthy\n"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Word",
+    "categoryImage": "assetimage",
+    "subCategoryList": [
+      {
+        "subCategoryName": "Phrases",
+        "subCategoryImage": "assets/images/advance/phrases.png",
+        "subCategoryDetailsList": [
+          {
+            "TopicName": "Phrases",
+            "TopicDetails": "Phrase হচ্ছে একাধিক শব্দের সমষ্টি যাতে কখনো কোন finite verb থাকেনা। এরা আলাদাভাবে কোন পূর্ণাঙ্গ বাক্য গঠন করতে পারে না, কিন্তু বাক্যের বিভিন্ন জায়গায় বসে একটি পূর্ণাঙ্গ বাক্য গঠন করতে সাহায্য করে।\n\nA phrase refers to a group or a set of words in a sentence or clause having no subject and a finite verb. A phrase never includes a finite verb. It may include a headword.."
           }
         ]
       }
