@@ -42,8 +42,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
-  // grammer data
-  // https://www.grammarbd.com/en-grammar/word
 
 
   final String title;
@@ -67,8 +65,8 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Image.asset(
-                  "assets/images/logo/main.gif",
-                width: 250,
+                  "assets/images/logo/logo.png",
+                width: 350,
               )
             ],
           ),
