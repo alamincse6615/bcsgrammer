@@ -33,7 +33,7 @@ class _detlespageState extends State<Detlespage> {
         backgroundColor: Colors.lightBlueAccent,
         title: Text("BCS English Grammar"),
         actions: [
-          IconButton(
+         /* IconButton(
             onPressed: () {
               Navigator.push(
                   context,
@@ -45,7 +45,7 @@ class _detlespageState extends State<Detlespage> {
             icon: Icon(Icons.home),
             color: Colors.deepPurpleAccent,
             iconSize: 28,
-          ),
+          ),*/
           PopupMenuButton(
             // add icon, by default "3 dot" icon
             // icon: Icon(Icons.book)
