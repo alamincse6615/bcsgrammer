@@ -1617,7 +1617,7 @@
     "subCategoryList": [
       {
         "subCategoryName": "Words",
-        "subCategoryImage": "assets/images/advance/phrases.png",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
           {
             "TopicName": "Word",
@@ -1631,7 +1631,7 @@
       },
       {
         "subCategoryName": "Phrases",
-        "subCategoryImage": "assets/images/advance/phrases.png",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
           {
             "TopicName": "Phrases",
@@ -1641,14 +1641,14 @@
       },
       {
         "subCategoryName": "Idioms",
-        "subCategoryImage": "assets/images/advance/phrases.png",
+        "subCategoryImage": "",
         "subCategoryDetailsList": [
           {
             "TopicName": "Idioms",
             "TopicDetails": "a bad apple  - কোনো একটা দলের সব ভালোর মধ্যে খারাপ বা মন্দটা \n a bed of roses - সুখ-স্বাচ্ছন্দ্যপূর্ণ জীবন\n a bed of roses thorns - কন্টকময় জীবন \n a black sheep - কুলাঙ্গার \n a blessing in disguise বিপরীতে হিত ; প্রথমে খারাপ হিসেবে মনে হলেও পরবর্তীতে ভালো হয় \n a bolt from the blue - সম্পূর্ন অপ্রত্যাশিত \n a piece of cake খুবই সহজ \n a rainy day - দুর্দিন \n a rotten apple কোনো একটা দলের সব ভালোর মধ্যে খারাপ বা মন্দটা \n"
           }
         ]
-      },
+      }
     ]
   }
 ]
